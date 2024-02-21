@@ -1,0 +1,55 @@
+/* TEXT UTILITIES */
+/* Color and padding in the index.css headers. */
+
+@font-face {
+  font-family: 'SVGFont 1';
+  src: url('/betolok.otf');
+}
+
+.util-text-family {
+  font-family: 'SVGFont 1';
+  /* font-family: 'Lemon', serif; */
+  /* font-weight: bolder; */
+}
+
+.util-text-center {
+  text-align: center;
+}
+
+.util-text-bold {
+  font-size: calc(var(--10px) + var(--8px));
+  font-weight: 700;
+}
+
+.util-text-medium {
+  font-size: calc(var(--10px) + var(--10px));
+}
+
+.util-text-large {
+  font-size: var(--35px);
+}
+
+.util-text-huge {
+  font-size: calc(var(--60px) + var(--16px));
+  font-weight: 600;
+  padding: var(--35px) 0 var(--25px);
+}
+
+.util-text-light {
+  color: var(--light-text-color);
+}
+
+.util-text-dark {
+  color: var(--dark-text-color);
+}
+
+/* .util-text-pretty {
+  max-width: 100ch;
+  text-wrap: pretty;
+} */
+
+.util-text-style {
+  font-style: italic;
+  font-size: large;
+  text-align: justify;
+}

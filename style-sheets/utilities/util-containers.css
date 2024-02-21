@@ -1,0 +1,9 @@
+/* CONTAINERS UTILITIES */
+
+.util-container-small {
+  max-width: calc(var(--400px) + var(--400px));
+}
+
+.util-container-large {
+  max-width: calc(var(--1000px) + var(--100px) + var(--6px));
+}

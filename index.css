@@ -1,0 +1,136 @@
+:root {
+  /* COLOR VARIABLES */
+
+  --swatch1-color: rgb(37, 156, 156);
+  --swatch2-color: rgb(45, 81, 110);
+  --swatch3-color: rgb(58, 103, 109);
+  --swatch4-color: rgb(19, 60, 80);
+  --accent-color: rgb(86, 68, 121);
+  --black-color: rgb(9, 33, 45);
+  --white-color: rgb(195, 207, 219);
+  --highlight-color: rgb(199, 162, 121);
+  --important-color: rgb(190, 116, 86);
+  --bandage-color: rgb(192, 159, 128);
+
+  /* /////////////////////////////////////////////////////////// */
+
+  --body-color: var(--black-color);
+  --containers-color: var(--swatch4-color);
+  --headings-color: var(--swatch1-color);
+  --headings2-color: var(--white-color);
+  --dark-text-color: var(--black-color);
+  --light-text-color: var(--white-color);
+  --hover-links-color: var(--accent-color);
+  --hover-links2-color: var(--important-color);
+
+  /* REM SIZES */
+
+  /* PIXELS TO REM:
+  Base # = 16px
+==========================
+Divide # of pixes by 16px:
+48px / 16px = 3rem
+20px / 16px = 1.25rem
+*/
+
+  --1px: 0.0625rem;
+  --2px: 0.125rem;
+  --4px: 0.25rem;
+  --6px: 0.375rem;
+  --8px: 0.5rem;
+  --10px: 0.625rem;
+  --16px: 1rem;
+  --25px: 1.5625rem;
+  --35px: 2.1875rem;
+  --48px: 3rem;
+  --60px: 3.75rem;
+  --80px: 5rem;
+  --100px: 6.5rem;
+  --200px: 12.5rem;
+  --300px: 18.75rem;
+  --400px: 25rem;
+  --700px: 43.75rem;
+  --1000px: 62.5rem;
+
+  /* Calc Usage: */
+  /* calc(var(--4px) + var(--2px)); */
+  /* calc(var(--400px) + var(--200px) + var(--100px); */
+
+  /* Negative numbers work-around?: */
+  /* calc(var(--300px) * -1); */
+
+  /* Animation Transitions 
+  Usage: transition: var(--main-transition);
+  */
+  --main-transition: all 0.3s linear;
+  --right-transition: right 0.3s ease-in-out;
+}
+
+/* GLOBALS */
+
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  /* padding: 0; */
+}
+
+body {
+  /* Body color in the layouts root-container */
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  line-height: 1.7;
+
+  /* Get rid of the horizontal scroll-bar: */
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Image stays contained inside a box, doesn't busts out (That's what she said...)
+Learn more about this reset here:
+https://www.youtube.com/watch?v=345V2MU3E_w */
+img {
+  background-repeat: no-repeat;
+  /* box-shadow: 0 0 5px var(--black-color); */
+  height: auto;
+  /* https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align */
+  font-style: italic;
+  /* shape-margin: calc(var(--10px) + var(--2px)); */
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4
+{
+  color: var(--headings-color);
+  text-wrap: balance;
+}
+
+h5,
+h6 {
+  color: var(--headings2-color);
+  /* text-wrap: balance; */
+}

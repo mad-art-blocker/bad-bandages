@@ -1,0 +1,42 @@
+/* BUTTONS */
+
+button {
+  border: 0;
+}
+
+.button {
+  /* border-radius: var(--8px); */
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  padding: var(--16px) var(--16px);
+  text-decoration: none;
+  transition: var(--main-transition);
+}
+.button:hover {
+  opacity: 0.6;
+  /* border-radius: var(--16px); */
+}
+
+.button-primary {
+  background-color: var(--swatch4-color);
+  color: var(--light-text-color);
+}
+
+.button-light {
+  background-color: var(--bandage-color);
+  /* border: thin var(--accent-color); */
+  color: var(--dark-text-color);
+  /* padding: 10px; */
+}
+
+.button-dark {
+  background-color: var(--swatch2-color);
+  /* border: thin solid var(--accent-color); */
+  color: var(--light-text-color);
+}
+
+.button-belt {
+  text-align: center;
+  width: 100%;
+}

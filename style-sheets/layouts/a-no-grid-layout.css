@@ -1,0 +1,71 @@
+/* PAGE 1 MAIN LAYOUT */
+
+/* SECTION CONTAINERS */
+
+/* Some section containers have a background image or a -
+ different background color. If they are commented out,
+ they are colored by the body background color or other color. */
+
+.root-section {
+  background-color: var(--body-color);
+  color: var(--light-text-color);
+}
+
+.header-section {
+  /* background-color: var(--containers-color); */
+  height: auto;
+  /* height: calc(var(--100px) + var(--10px)); */
+}
+
+.navbar-section {
+  /* background-color: var(--containers-color); */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-section .util-container-large {
+  display: flex;
+  justify-content: right;
+  /* space-evenly looks better with small logos */
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.navbar-section a:hover {
+  color: var(--hover-links-color);
+}
+
+.hero-section {
+  background: url('/bad_bandages_hero.webp') no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: bottom;
+  height: 85vh;
+}
+
+.hero-section .hero-content {
+  width: 50%;
+}
+
+.main-section {
+  height: auto;
+}
+
+.villain-section {
+  background-color: var(--containers-color);
+  /* height: auto; */
+}
+
+.footer-section {
+  /* background-color: var(--containers-color); */
+  padding-top: var(--48px);
+}
+.footer-section input[type='email'] {
+  width: 100%;
+  padding: var(--6px);
+  border: var(--4px) solid var(--accent-color);
+  border-radius: var(--8px);
+  margin: var(--10px) 0;
+}
+.footer-section a:hover {
+  color: var(--hover-links-color);
+}

@@ -1,0 +1,14 @@
+/* HELPING UTILITIES */
+
+.util-active {
+  color: var(--highlight-color);
+}
+
+.util-highlight {
+  background-color: var(--swatch3-color);
+}
+
+.util-border-line {
+  border-top: var(--1px) dashed var(--black-color);
+  padding-top: var(--16px);
+}

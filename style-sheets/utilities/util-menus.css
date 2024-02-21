@@ -1,0 +1,27 @@
+/* Menus (Main) */
+.util-main-menu ul {
+  display: flex;
+}
+.util-main-menu ul a {
+  /* background-color: var(--swatch2-color); */
+  display: block;
+  font-weight: 600;
+  padding: var(--10px) var(--16px);
+  transition: var(--main-transition);
+}
+
+/* Negative numbers doesn't work with variables? */
+.util-mobile-menu {
+  background-color: var(--swatch2-color);
+  height: auto;
+  padding: var(--16px);
+  position: fixed;
+  right: calc(var(--300px) * -1);
+  top: var(--25px);
+  transition: var(--right-transition);
+  width: calc(var(--200px) + var(--48px));
+  z-index: 10;
+}
+.util-mobile-menu.open {
+  right: 0;
+}

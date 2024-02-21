@@ -1,0 +1,79 @@
+
+- Future me forgets a lot of shit...
+
+Started this new project on:
+DATE
+
+THEE NEW PROJECT TITLE
+
+ - Important Pages/References URLs goes here:
+
+ LEFT @:
+
+==================================             =================================
+                            =====  MAIN NOTES  =====
+==================================             =================================
+
+
+
+- Package.Json basic backup scripts:
+------------------------------------
+
+  "scripts": {
+    "start": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview",
+    "del-packages": "npx npkill",
+    "delete-packages": "bunx npkill",
+    "delete": "rm -rf dist"
+  },
+
+
+
+=================================================================================
+
+
+
+- Vite.Config.JS basic config:
+------------------------------
+
+// vite.config.js - Comment or take out the root for build production:
+import { resolve } from 'path'
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+  root: resolve(__dirname, 'src'),
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        page2: resolve(__dirname, '/pages/page2.html'),
+      },
+    },
+  },
+})
+
+
+
+
+=================================================================================
+
+
+
+- Creating a new Astro project:
+-------------------------------
+
+pnpm create astro@latest my-astro-project && cd $_ && code .
+
+pnpm astro telemetry disable
+
+
+
+
+==================================             =================================
+                               =====  TO-DO  =====
+===================================            =================================
+
+ - A lot of shit to do.
+
+

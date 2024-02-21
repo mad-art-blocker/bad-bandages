@@ -1,0 +1,12 @@
+/* ANIMATIONS */
+
+/* This 2 inflate animation classes are for the social media icons inflating them: */
+.inflate-anim {
+  transition: var(--main-transition);
+}
+
+
+.inflate-anim:hover {
+  transform: scale(1.3);
+  /* transform: scale(0.5) translate(-100%, -100%); */
+}
