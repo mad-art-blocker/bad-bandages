@@ -30,9 +30,6 @@
   /* justify-content: space-evenly; */
   align-items: center;
 }
-.navbar-section a:hover {
-  color: var(--hover-links-color);
-}
 
 .hero-section {
   background: url('/bad_bandages_hero.webp') no-repeat;
@@ -65,7 +62,4 @@
   border: var(--4px) solid var(--accent-color);
   border-radius: var(--8px);
   margin: var(--10px) 0;
-}
-.footer-section a:hover {
-  color: var(--hover-links-color);
 }

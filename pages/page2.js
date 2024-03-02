@@ -1,2 +1,2 @@
-import '../index.js';
+import '../global-js.js';
 import './page2.css';

@@ -29,7 +29,7 @@
 /*FOOTER CARDS */
 
 .footer-card {
-  background-color: var(--bandage-color);
+  background-color: var(--swatch3-color);
   border-radius: var(--8px);
   /* border-bottom: var(--10px) solid var(--bandage-color); */
   /* color: var(--light-text-color); */
