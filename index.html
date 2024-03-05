@@ -1,223 +1,285 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bad Bandages - Home</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bad Bandages - Home</title>
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
 
-  <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+    <script defer src="/pages/home.js" type="module"></script>
+    <!-- CSS is imported inside pages/home.js  -->
+    <!-- <link rel="stylesheet" href="/pages/home.css" /> -->
+  </head>
 
-  <script defer src="/pages/home.js" type="module"></script>
-  <!-- CSS is imported inside pages/home.js  -->
-  <!-- <link rel="stylesheet" href="/pages/home.css" /> -->
-</head>
+  <body>
+    <!-- ROOT CONTAINER SECTION - NO GRID LAYOUT - START -->
+    <div class="root-section">
+      <!-- HEADER SECTION - START -->
+      <header class="header-section">
+        <div class="util-container-large util-margin-auto siteLogoJS">
+          <!-- <h1 class="siteTitleJS util-text-family">-</h1> -->
+        </div>
+      </header>
 
-<body>
-  <!-- ROOT CONTAINER SECTION - NO GRID LAYOUT - START -->
-  <div class="root-section">
-    <!-- HEADER SECTION - START -->
-    <header class="header-section">
-      <div class="util-container-large util-margin-auto">
-        <!-- <h1 class="siteTitle util-text-family">-</h1> -->
-        <a href="/">
-          <img class="main-logo" src="/bad_bandage.png" alt="Image logo decoration of a bandage" />
-        </a>
-      </div>
-    </header>
-
-    <!-- NAVBAR SECTION - START -->
-    <nav class="navbar-section">
-      <!-- If you going to change the container to another size, you need to change in the navbar
+      <!-- NAVBAR SECTION - START -->
+      <nav class="navbar-section">
+        <!-- If you going to change the container to another size, you need to change in the navbar
         section CSS class as well to take effect. -->
-      <div class="util-container-large util-margin-auto">
-        <!-- Menu List -->
-        <div class="util-main-menu">
-          <nav>
-            <a class="util-active" href="/">Home</a>
+        <div class="util-container-large util-margin-auto">
+          <!-- Menu List -->
+          <div class="util-main-menu">
+            <nav>
+              <a class="util-active" href="/">Home</a>
+
+              <a href="/pages/page2.html">Page 2</a>
+
+              <a href="#">Page 3</a>
+
+              <a href="#"
+                ><img class="mini-icons" src="/avatar.svg" alt="avatar image" /> Log In</a
+              >
+            </nav>
+          </div>
+          <!-- Hamburger Button -->
+          <button class="hamburger-icon" type="button">
+            <img
+              src="/hamburger_icon64.svg"
+              width="40"
+              height="40"
+              alt="Menu Decoration"
+            />
+          </button>
+
+          <!-- Mobile Menu -->
+          <nav class="util-mobile-menu util-text-bold">
+            <a href="/" class="util-active">Home</a>
 
             <a href="/pages/page2.html">Page 2</a>
 
             <a href="#">Page 3</a>
 
-            <a href="#"><img class="mini-icons" src="/avatar.svg" alt="avatar image" /> Log In</a>
+            <a href="#">Page 4</a>
           </nav>
         </div>
-        <!-- Hamburger Button -->
-        <button class="hamburger-icon" type="button">
-          <img src="/hamburger_icon64.svg" width="40" height="40" alt="Menu Decoration" />
-        </button>
+      </nav>
 
-        <!-- Mobile Menu -->
-        <nav class="util-mobile-menu util-text-bold">
-          <a href="/" class="util-active">Home</a>
-
-          <a href="/pages/page2.html">Page 2</a>
-
-          <a href="#">Page 3</a>
-
-          <a href="#">Page 4</a>
-        </nav>
-      </div>
-    </nav>
-
-    <!-- HERO SECTION - START -->
-    <!-- Check the Media Queries if you going to make changes to containers -->
-    <section class="hero-section">
-      <div class="util-container-large util-margin-auto">
-        <div class="hero-content">
-          <h1 class="siteTitle util-text-family util-text-huge">-</h1>
-          <p class="util-text-medium util-margin-bottom">
-            Welcome back drunkin' master
-          </p>
-          <div>
-            <a class="button button-light" href="#">Get Started</a>
-            <a class="button button-dark" href="#"><img class="mini-icons" src="/bottle.svg" alt="avatar image" />Book a
-              Beer</a>
+      <!-- HERO SECTION - START -->
+      <!-- Check the Media Queries if you going to make changes to containers -->
+      <section class="hero-section">
+        <div class="util-container-large util-margin-auto">
+          <div class="hero-content">
+            <h1 class="siteTitleJS util-text-family util-text-huge">-</h1>
+            <p class="util-text-medium util-margin-bottom">
+              Welcome back drunkin' master
+            </p>
+            <div>
+              <a class="button button-light" href="#">Get Started</a>
+              <a class="button button-dark" href="#"
+                ><img class="mini-icons" src="/bottle.svg" alt="avatar image" />Book a
+                Beer</a
+              >
+            </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <!-- MAIN SECTION - START -->
-    <main class="main-section">
-      <h2>MAIN SECTION</h2>
-      <!-- Intro Section -->
-      <div class="util-container-small util-margin-all util-margin-auto">
-        <img src="/media/bad-bandages-site.webp" alt="Site structure image" />
-      </div>
-
-      <!-- Cards (Testimonials) -->
-      <section class="util-display-grid util-columns-3 util-container-large util-margin-auto">
-        <article class="main-card">
-          <img class="social-icons util-margin-bottom" src="/beto.webp" alt="Cartoon face of a dude" />
-          <h5 class="util-text-style">
-            "Our drinking business has seen a significant in crease in productivity
-            since I started chugging."
-          </h5>
-          <p>Katherine Smitten</p>
-          <p>Chuggo Company</p>
-        </article>
-
-        <article class="main-card">
-          <img class="social-icons util-margin-bottom" src="/beto.webp" alt="Cartoon face of a dude" />
-          <h5 class="util-text-style">
-            "Our drinking business has seen a significant in crease in productivity
-            since I started chugging."
-          </h5>
-          <p>Ben Al Caughlek</p>
-          <p>Beerstein Company</p>
-        </article>
-
-        <article class="main-card">
-          <img class="social-icons util-margin-bottom" src="/beto.webp" alt="Cartoon face of a dude" />
-          <h5 class="util-text-style">
-            "Our drinking business has seen a significant in crease in productivity
-            since I started chugging."
-          </h5>
-          <p>Drew Brewskeemore</p>
-          <p>A.A Meeting</p>
-        </article>
       </section>
-    </main>
 
-    <!-- VILLAIN SECTION - STARTS -->
-    <section class="villain-section util-margin-top">
-      <h2>VILLAIN SECTION</h2>
-      <!-- Cards -->
-      <div class="util-display-grid util-columns-2 util-container-small util-margin-auto">
-        <div class="villain-card util-margin-topbottom">
-          <h5 class="util-text-medium">Bullshit Plan</h5>
-          <p class="util-margin-topbottom">
-            This is a better plan from the Expert plan and I like the color so you can't
-            read the fine print.
-          </p>
-          <p>
-            <span class="util-text-medium">$100/Month - </span>*No credit card needed.
-          </p>
-          <hr />
-          <ul class="util-margin-topbottom">
-            <li>&#10003; Every thing on the last option plus this one</li>
-            <li>&#10003; Every thing on the last option plus this one</li>
-            <li>&#10003; Every thing on the last option plus this one</li>
-            <li>&#10003; Every thing on the last option plus this one</li>
-          </ul>
-          <a href="#" class="button button-dark button-belt">Get Started</a>
+      <!-- MAIN SECTION - START -->
+      <main class="main-section">
+        <h2>MAIN SECTION</h2>
+        <!-- Intro Section -->
+        <div class="util-container-small util-margin-all util-margin-auto">
+          <img src="/media/bad-bandages-site.webp" alt="Site structure image" />
         </div>
-        <div class="villain-card util-margin-topbottom">
-          <h5 class="util-text-medium">Expert Plan</h5>
-          <p class="util-margin-topbottom">
-            This is a better plan from the Bullshit plan and I like the color so you
-            can't read the fine print.
-          </p>
-          <p><span class="util-text-medium">Free - </span>*Bring your own beer.</p>
-          <hr />
-          <ul class="util-margin-topbottom">
-            <li>
-              <img src="/check-24-icon.svg" class="mini-icons" alt="Check mark icon figure" />
-              Every thing on the last option plus this one
-            </li>
-            <li>
-              <img src="/check-24-icon.svg" class="mini-icons" alt="Check mark icon figure" />
-              Every thing on the last option plus this one
-            </li>
-            <li>
-              <img src="/check-24-icon.svg" class="mini-icons" alt="Check mark icon figure" />
-              Every thing on the last option plus this one
-            </li>
-            <li>
-              <img src="/check-24-icon.svg" class="mini-icons" alt="Check mark icon figure" />
-              Every thing on the last option plus this one
-            </li>
-          </ul>
-          <a href="#" class="button button-dark button-belt">Get Started</a>
-        </div>
-      </div>
-    </section>
 
-    <!-- FOOTER - START -->
-    <footer class="footer-section util-text-center">
-      <div class="util-display-grid util-columns-bandage">
-        <div>
-          <h4 class="util-text-bold">Say what's up:</h4>
-          <a href="#" target="_blank" rel="noopener noreferrer"><img src="/youtube_icon64.webp" alt="YouTube icon image"
-              class="social-icons inflate-anim" /></a>
-          <a href="#" target="_blank" rel="noopener noreferrer"><img src="/instagram_icon64.webp"
-              alt="Instagram icon image" class="social-icons inflate-anim" /></a>
-          <a href="#" target="_blank" rel="noopener noreferrer"><img src="/facebook_icon64.webp"
-              alt="Facebook icon image" class="social-icons inflate-anim" /></a>
-          <a href="#" target="_blank" rel="noopener noreferrer"><img src="/tweeter_icon64.webp" alt="Twitter icon image"
-              class="social-icons inflate-anim" /></a>
-          <a href="#"><img src="/mail_icon64.webp" alt="Email icon image" class="social-icons inflate-anim" /></a>
-        </div>
-        <div class="footer-card">
-          <h5>Subscribe to our newsletter</h5>
-          <form>
-            <input type="email" name="shit" id="email" placeholder="Enter your fucked up email" />
-            <button class="button button-primary button-belt" type="submit">
-              Beerscribe
-            </button>
-          </form>
-          <!-- <img src="/betogalvez.svg" alt="Signature image of an author" /> -->
-        </div>
-        <div>
-          <h4>Our Patnas</h4>
-          <ul>
-            <li><a class="util-active" href="/">Home</a></li>
-            <li><a href="/pages/page2.html">page 2</a></li>
-            <li><a href="#">page 3</a></li>
-            <li><a href="#">page 4</a></li>
-          </ul>
-        </div>
-      </div>
+        <!-- Cards (Testimonials) -->
+        <section
+          class="util-display-grid util-columns-3 util-container-large util-margin-auto"
+        >
+          <article class="main-card">
+            <img
+              class="social-icons util-margin-bottom"
+              src="/beto.webp"
+              alt="Cartoon face of a dude"
+            />
+            <h5 class="util-text-style">
+              "Our drinking business has seen a significant in crease in productivity
+              since I started chugging."
+            </h5>
+            <p>Katherine Smitten</p>
+            <p>Chuggo Company</p>
+          </article>
 
-      <p class="util-margin-top">
-        <span class="siteTitle"></span> <span class="thisYear"></span> | Est. November
-        2023 By <span class="authorToken"></span> | Powered by
-        <span class="subTitles"></span> All rights reserved
-      </p>
-    </footer>
-  </div>
-</body>
+          <article class="main-card">
+            <img
+              class="social-icons util-margin-bottom"
+              src="/beto.webp"
+              alt="Cartoon face of a dude"
+            />
+            <h5 class="util-text-style">
+              "Our drinking business has seen a significant in crease in productivity
+              since I started chugging."
+            </h5>
+            <p>Ben Al Caughlek</p>
+            <p>Beerstein Company</p>
+          </article>
 
+          <article class="main-card">
+            <img
+              class="social-icons util-margin-bottom"
+              src="/beto.webp"
+              alt="Cartoon face of a dude"
+            />
+            <h5 class="util-text-style">
+              "Our drinking business has seen a significant in crease in productivity
+              since I started chugging."
+            </h5>
+            <p>Drew Brewskeemore</p>
+            <p>A.A Meeting</p>
+          </article>
+        </section>
+      </main>
+
+      <!-- VILLAIN SECTION - STARTS -->
+      <section class="villain-section util-margin-top">
+        <h2>VILLAIN SECTION</h2>
+        <!-- Cards -->
+        <div
+          class="util-display-grid util-columns-2 util-container-small util-margin-auto"
+        >
+          <div class="villain-card util-margin-topbottom">
+            <h5 class="util-text-medium">Bullshit Plan</h5>
+            <p class="util-margin-topbottom">
+              This is a better plan from the Expert plan and I like the color so you can't
+              read the fine print.
+            </p>
+            <p>
+              <span class="util-text-medium">$100/Month - </span>*No credit card needed.
+            </p>
+            <hr />
+            <ul class="util-margin-topbottom">
+              <li>&#10003; Every thing on the last option plus this one</li>
+              <li>&#10003; Every thing on the last option plus this one</li>
+              <li>&#10003; Every thing on the last option plus this one</li>
+              <li>&#10003; Every thing on the last option plus this one</li>
+            </ul>
+            <a href="#" class="button button-dark button-belt">Get Started</a>
+          </div>
+          <div class="villain-card util-margin-topbottom">
+            <h5 class="util-text-medium">Expert Plan</h5>
+            <p class="util-margin-topbottom">
+              This is a better plan from the Bullshit plan and I like the color so you
+              can't read the fine print.
+            </p>
+            <p><span class="util-text-medium">Free - </span>*Bring your own beer.</p>
+            <hr />
+            <ul class="util-margin-topbottom">
+              <li>
+                <img
+                  src="/check-24-icon.svg"
+                  class="mini-icons"
+                  alt="Check mark icon figure"
+                />
+                Every thing on the last option plus this one
+              </li>
+              <li>
+                <img
+                  src="/check-24-icon.svg"
+                  class="mini-icons"
+                  alt="Check mark icon figure"
+                />
+                Every thing on the last option plus this one
+              </li>
+              <li>
+                <img
+                  src="/check-24-icon.svg"
+                  class="mini-icons"
+                  alt="Check mark icon figure"
+                />
+                Every thing on the last option plus this one
+              </li>
+              <li>
+                <img
+                  src="/check-24-icon.svg"
+                  class="mini-icons"
+                  alt="Check mark icon figure"
+                />
+                Every thing on the last option plus this one
+              </li>
+            </ul>
+            <a href="#" class="button button-dark button-belt">Get Started</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER - START -->
+      <footer class="footer-section util-text-center">
+        <div class="util-display-grid util-columns-bandage">
+          <div>
+            <h4 class="util-text-bold">Say what's up:</h4>
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              ><img
+                src="/youtube_icon64.webp"
+                alt="YouTube icon image"
+                class="social-icons inflate-anim"
+            /></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              ><img
+                src="/instagram_icon64.webp"
+                alt="Instagram icon image"
+                class="social-icons inflate-anim"
+            /></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              ><img
+                src="/facebook_icon64.webp"
+                alt="Facebook icon image"
+                class="social-icons inflate-anim"
+            /></a>
+            <a href="#" target="_blank" rel="noopener noreferrer"
+              ><img
+                src="/tweeter_icon64.webp"
+                alt="Twitter icon image"
+                class="social-icons inflate-anim"
+            /></a>
+            <a href="#"
+              ><img
+                src="/mail_icon64.webp"
+                alt="Email icon image"
+                class="social-icons inflate-anim"
+            /></a>
+          </div>
+          <div class="footer-card">
+            <h5>Subscribe to our newsletter</h5>
+            <form>
+              <input
+                type="email"
+                name="shit"
+                id="email"
+                placeholder="Enter your fucked up email"
+              />
+              <button class="button button-primary button-belt" type="submit">
+                Beerscribe
+              </button>
+            </form>
+            <!-- <img src="/betogalvez.svg" alt="Signature image of an author" /> -->
+          </div>
+          <div>
+            <h4>Our Patnas</h4>
+            <ul>
+              <li><a class="util-active" href="/">Home</a></li>
+              <li><a href="/pages/page2.html">page 2</a></li>
+              <li><a href="#">page 3</a></li>
+              <li><a href="#">page 4</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <p class="util-margin-top">
+          <span class="siteTitleJS"></span> <span class="thisYear"></span> | Est. November
+          2023 By <span class="authorToken"></span> | Powered by
+          <span class="subTitles"></span> All rights reserved
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
