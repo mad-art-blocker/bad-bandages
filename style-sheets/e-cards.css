@@ -5,11 +5,11 @@
   background-color: var(--swatch3-color);
   /* border-bottom: var(--2px) solid var(--swatch2-color); */
   border-radius: var(--10px);
-  padding: var(--16px);
+  padding: var(--10px);
 }
 
 .main-card p:nth-child(odd) {
-  margin-top: var(--25px);
+  margin-top: var(--16px);
   font-weight: bold;
 }
 
@@ -33,7 +33,7 @@
   border-radius: var(--8px);
   /* border-bottom: var(--10px) solid var(--bandage-color); */
   /* color: var(--light-text-color); */
-  padding: var(--25px);
+  padding: var(--16px);
 }
 
 /* .footer-card:nth-child(odd) {

@@ -123,8 +123,8 @@ video {
 }
 
 hr {
-  border: var(--1px) dashed var(--black-color);
-  margin-top: var(--10px);
+  border: var(--1px) dashed var(--swatch1-color);
+  margin: var(--35px);
 }
 
 h1,
