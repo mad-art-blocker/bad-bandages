@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // <h1 class="util-text-family">${bandagesKeys.webSiteTitle}</h1>
   document.querySelector('.siteLogoJS').innerHTML = `
 <a href="/">
-  <img class="main-logo" src="${siteLogo}" alt="Image logo decoration of a bandage" />
+  <img class="main-logo" src=${siteLogo} alt="Image logo decoration of a bandage" />
 </a>
 `
 

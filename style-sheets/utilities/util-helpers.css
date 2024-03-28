@@ -1,11 +1,9 @@
 /* HELPING UTILITIES */
 
 .util-active {
-  color: var(--highlight-color);
+  color: var(--accent-color);
 }
 
 .util-highlight {
-  background-color: var(--swatch3-color);
+  background-color: var(--highlight-color);
 }
-
-

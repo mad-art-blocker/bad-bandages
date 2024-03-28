@@ -14,12 +14,12 @@ button {
   transition: var(--main-transition);
 }
 .button:hover {
-  opacity: 0.6;
+  opacity: 0.9;
   /* border-radius: var(--16px); */
 }
 
 .button-primary {
-  background-color: var(--swatch4-color);
+  background-color: var(--swatch1-color);
   color: var(--light-text-color);
 }
 
@@ -31,7 +31,7 @@ button {
 }
 
 .button-dark {
-  background-color: var(--swatch2-color);
+  background-color: var(--swatch4-color);
   /* border: thin solid var(--accent-color); */
   color: var(--light-text-color);
 }

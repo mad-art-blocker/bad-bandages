@@ -23,7 +23,7 @@
 } */
 
 .villain-card:nth-child(even) {
-  background-color: var(--accent-color);
+  background-color: var(--swatch2-color);
 }
 
 /*FOOTER CARDS */
