@@ -32,7 +32,7 @@
 .util-text-huge {
   font-size: calc(var(--60px) + var(--16px));
   font-weight: 600;
-  padding: var(--35px) 0 var(--25px);
+  /* padding: var(--35px) 0 var(--25px); */
 }
 
 .util-text-light {

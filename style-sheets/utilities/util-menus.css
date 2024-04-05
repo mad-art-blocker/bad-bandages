@@ -16,7 +16,7 @@
 /* Negative numbers doesn't work with variables? */
 /* Display Flex and Gap on top ^ */
 .util-mobile-menu {
-  background-color: var(--swatch2-color);
+  background-color: var(--containers-color);
   flex-direction: column;
   height: auto;
   padding: var(--25px);

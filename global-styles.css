@@ -16,14 +16,14 @@
 
   --body-color: var(--black-color);
   --containers-color: var(--swatch4-color);
-  --headings-color: var(--swatch1-color);
-  --headings2-color: var(--white-color);
-  --dark-text-color: var(--black-color);
+  --headings-light-color: var(--white-color);
+  --headings-dark-color: var(--swatch1-color);
   --light-text-color: var(--white-color);
-  --links-color: var(--white-color);
-  /* --links2-color: var(--important-color); */
-  --hover-links-color: var(--swatch1-color);
-  /* --hover-links2-color: var(--highlight-color); */
+  --dark-text-color: var(--black-color);
+  --links-light-color: var(--white-color);
+  /* --links-dark-color: var(--important-color); */
+  /* --hover-light-color: var(--accent-color); */
+  --hover-dark-color: var(--swatch1-color);
 
   /* REM SIZES */
 
@@ -94,11 +94,11 @@ body {
 
 /* Move Links to CSS layouts if they have a different color theme */
 a {
-  color: var(--links-color);
+  color: var(--links-light-color);
   text-decoration: none;
 }
 a:hover {
-  color: var(--hover-links-color);
+  color: var(--hover-dark-color);
 }
 
 ul {
@@ -130,7 +130,7 @@ hr {
 
 h1,
 h2 {
-  color: var(--headings-color);
+  color: var(--headings-dark-color);
   /* text-wrap: balance; */
 }
 
@@ -138,6 +138,6 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--headings2-color);
+  color: var(--headings-light-color);
   /* text-wrap: balance; */
 }
