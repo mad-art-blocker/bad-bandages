@@ -87,7 +87,6 @@ body {
   /* Body color in the layouts root-container */
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.7;
-
   /* Get rid of the horizontal scroll-bar: */
   overflow-x: hidden;
 }
@@ -120,12 +119,6 @@ svg,
 video {
   display: block;
   max-width: 100%;
-}
-
-hr {
-  border: var(--1px) dashed var(--swatch1-color);
-  margin: var(--35px) auto;
-  width: 50%;
 }
 
 h1,

@@ -7,3 +7,9 @@
 .util-highlight {
   background-color: var(--highlight-color);
 }
+
+hr {
+  border: var(--1px) dashed var(--swatch1-color);
+  margin: var(--35px) auto;
+  width: 50%;
+}
