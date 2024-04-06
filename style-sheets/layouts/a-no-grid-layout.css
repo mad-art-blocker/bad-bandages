@@ -18,6 +18,10 @@
 }
 
 .navbar-section {
+  animation: stickyNav linear forwards;
+  animation-timeline: view();
+  animation-range-start: 150vh;
+  animation-range-end: 180vh;
   /* background-color: var(--containers-color); */
   position: sticky;
   top: 0;

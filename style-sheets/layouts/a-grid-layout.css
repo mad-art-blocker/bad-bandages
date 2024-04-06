@@ -29,6 +29,12 @@
 }
 
 .header-section {
+  grid-area: headerArea;
+  animation: stickyNav linear forwards;
+  animation-timeline: view();
+  animation-range-start: 150vh;
+  animation-range-end: 180vh;
+  /* background-color: var(--containers-color); */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* Try subgrid or auto */
@@ -41,7 +47,6 @@
   place-items: center;
   grid-auto-flow: row;
   grid-template-areas: 'logoArea headerSpacerArea userArea';
-  grid-area: headerArea;
 }
 .logo-section {
   grid-area: logoArea;
@@ -51,11 +56,10 @@
 }
 .user-section {
   grid-area: userArea;
-  background-color: var(--containers-color);
 }
 
 .navbar-section {
-  /* background-color: var(--containers-color); */
+  background-color: var(--containers-color);
   grid-area: navbarArea;
 }
 

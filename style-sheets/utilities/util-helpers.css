@@ -8,6 +8,12 @@
   background-color: var(--highlight-color);
 }
 
+/* .util-underline {
+  text-decoration: underline;
+  text-decoration-thickness: var(--4px);
+  text-underline-offset: var(--4px);
+} */
+
 hr {
   border: var(--1px) dashed var(--swatch1-color);
   margin: var(--35px) auto;
