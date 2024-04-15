@@ -37,7 +37,7 @@ Divide # of pixes by 16px:
     padding: var(--10px);
   }
 
-  .util-main-menu {
+  .main-menu {
     display: none;
   }
 

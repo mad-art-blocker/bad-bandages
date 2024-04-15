@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // MOBILE MENU
   const hamburgerButton = document.querySelector('.hamburger-icon');
-  const menuMobile = document.querySelector('.util-mobile-menu');
+  const menuMobile = document.querySelector('.mobile-menu');
   hamburgerButton.addEventListener('click', () => menuMobile.classList.toggle('open'));
 
 
