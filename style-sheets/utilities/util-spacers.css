@@ -1,6 +1,11 @@
 /* MARGIN SPACE */
 
 .util-margin-auto {
+  margin: 0 auto;
+  display: block;
+}
+
+.util-margin-inline {
   margin-inline: auto;
 }
 
