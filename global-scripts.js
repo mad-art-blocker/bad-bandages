@@ -9,15 +9,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // WEBSITE TITLES/INTERFACE PROPERTIES:
   const bandagesKeys = {
-    webSiteTitle: 'BAD.BANDAGES',
+    webSiteTitle: 'bad.bandages',
     subTitle: 'Malas Vendas',
     'role Token': 'Beto Vector'
   };
 
-
+  // Website Title Name
   const injectTitle = document.querySelectorAll('.siteTitleJS');
   for (let it = 0; it < injectTitle.length; it++) {
-    injectTitle[it].textContent = `${bandagesKeys.webSiteTitle}`;
+    injectTitle[it].textContent = `${bandagesKeys.webSiteTitle.toUpperCase()}`;
   }
 
   // Author, Title,  or Token:

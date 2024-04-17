@@ -37,23 +37,30 @@ THEE NEW PROJECT TITLE
 - Vite.Config.JS basic config:
 ------------------------------
 
-// vite.config.js - Comment or take out the root for build production:
+// Install this first:
+// pnpm i @types/node -D
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
+
+const root = resolve(__dirname, 'src')
+const outDir = resolve(__dirname, 'dist')
+
+
 export default defineConfig({
-  root: resolve(__dirname, 'src'),
+  root,
+  plugins: [],
   build: {
+    outDir,
+    emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(__dirname, 'index.html'),
-        page2: resolve(__dirname, '/pages/page2.html'),
-      },
-    },
-  },
+        main: resolve(root, 'index.html'),
+        gallery: resolve(root, 'pages', 'gallery.html'),
+      }
+    }
+  }
 })
-
-
 
 
 =================================================================================

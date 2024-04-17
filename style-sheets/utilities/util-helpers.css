@@ -14,6 +14,10 @@
   text-underline-offset: var(--4px);
 } */
 
+.util-float-right {
+  float: right;
+}
+
 hr {
   border: var(--1px) dashed var(--swatch1-color);
   margin: var(--35px) auto;

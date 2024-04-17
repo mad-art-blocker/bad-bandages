@@ -6,10 +6,8 @@
   src: url('/betolok.otf');
 }
 
-.util-text-family {
+.util-text-font {
   font-family: 'SVGFont 1';
-  /* font-family: 'Lemon', serif; */
-  /* font-weight: bolder; */
 }
 
 .util-text-center {
