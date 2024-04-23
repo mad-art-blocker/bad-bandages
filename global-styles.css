@@ -8,7 +8,7 @@
   --accent-color: rgb(231, 172, 104);
   --black-color: rgb(9, 33, 45);
   --white-color: rgb(214, 223, 233);
-  --highlight-color: rgb(70, 129, 112);
+  --highlight-color: var(--accent-color);
   --important-color: rgb(208, 116, 79);
   --bandage-color: rgb(192, 159, 128);
 

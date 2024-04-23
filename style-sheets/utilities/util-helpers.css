@@ -4,8 +4,11 @@
   color: var(--accent-color);
 }
 
-.util-highlight {
+.util-highlight,
+mark {
   background-color: var(--highlight-color);
+  color: var(--black-color);
+  padding: var(--2px);
 }
 
 /* .util-underline {
