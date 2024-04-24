@@ -1,7 +1,7 @@
 //
 //  ---
 
-import logoUrl from '/bad_bandage.png'
+import logoUrl from '/bandaid-logo.webp'
 
 //  ---
 //

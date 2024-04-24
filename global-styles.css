@@ -1,23 +1,23 @@
 :root {
   /* COLOR VARIABLES */
 
-  --swatch1-color: rgb(37, 156, 156);
-  --swatch2-color: rgb(45, 81, 110);
-  --swatch3-color: rgb(58, 103, 109);
-  --swatch4-color: rgb(19, 60, 80);
-  --accent-color: rgb(231, 172, 104);
-  --black-color: rgb(9, 33, 45);
-  --white-color: rgb(214, 223, 233);
+  --swatch1-color: hsl(259, 57%, 77%);
+  --swatch2-color: hsl(259, 29%, 57%);
+  --swatch3-color: hsl(258, 29%, 44%);
+  --swatch4-color: hsl(260, 33%, 25%);
+  --accent-color: hsl(32, 73%, 66%);
+  --black-color: hsl(259, 35%, 19%);
+  --white-color: hsl(269, 43%, 85%);
   --highlight-color: var(--accent-color);
-  --important-color: rgb(208, 116, 79);
-  --bandage-color: rgb(192, 159, 128);
+  --important-color: hsl(17, 58%, 56%);
+  --bandage-color: hsl(29, 34%, 63%);
 
   /* /////////////////////////////////////////////////////////// */
 
   --body-color: var(--black-color);
   --containers-color: var(--swatch4-color);
   --headings-light-color: var(--white-color);
-  --headings-dark-color: var(--swatch1-color);
+  --headings-dark-color: var(--swatch3-color);
   --light-text-color: var(--white-color);
   --dark-text-color: var(--black-color);
   --links-light-color: var(--white-color);
@@ -122,11 +122,7 @@ video {
 }
 
 h1,
-h2 {
-  color: var(--headings-dark-color);
-  /* text-wrap: balance; */
-}
-
+h2,
 h3,
 h4,
 h5,

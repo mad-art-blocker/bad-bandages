@@ -34,7 +34,7 @@
   animation-timeline: view();
   animation-range-start: 150vh;
   animation-range-end: 180vh;
-  /* background-color: var(--containers-color); */
+  background-color: var(--containers-color);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* Try subgrid or auto */
@@ -59,13 +59,13 @@
 }
 
 .navbar-section {
-  background-color: var(--containers-color);
+  /* background-color: var(--containers-color); */
   grid-area: navbarArea;
 }
 
 .hero-section {
   grid-area: heroArea;
-  background: url('/bad_bandages_hero.webp') no-repeat;
+  background: url('/bad_bandages2_hero.webp') no-repeat;
   background-attachment: fixed;
   background-size: contain;
   background-position: center;
@@ -101,14 +101,14 @@
 
 .footer-section {
   grid-area: footerArea;
-  background-color: var(--containers-color);
+  background-color: var(--swatch4-color);
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   /* gap: 0px var(--10px); */
   place-items: center stretch;
   grid-auto-flow: row;
-  grid-template-areas: 'footSpaceArea1 footSpaceArea2 footSpaceArea3 footSpaceArea4 footSpaceArea5';
+  grid-template-areas: 'footSpaceArea1 footSpaceArea2 footSpaceArea3 footSpaceArea4';
 }
 .foot-space1 {
   grid-area: footSpaceArea1;
@@ -122,9 +122,6 @@
 }
 .foot-space4 {
   grid-area: footSpaceArea4;
-}
-.foot-space5 {
-  grid-area: footSpaceArea5;
 }
 .footer-section input[type='email'] {
   width: 100%;
