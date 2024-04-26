@@ -12,7 +12,7 @@
 }
 
 .header-section {
-  /* background-color: var(--containers-color); */
+  background-color: var(--containers-color);
   height: auto;
   /* height: calc(var(--100px) + var(--10px)); */
 }
@@ -27,12 +27,13 @@
   top: 0;
   z-index: 10;
 }
+/* Change the HTML .util-container-(size) class if changing this size. */
 .navbar-section .util-container-large {
   display: flex;
+  /* justify-content: space-evenly, center, space-around, space-evenly, right; */
   justify-content: right;
-  /* space-evenly looks better with small logos */
-  /* justify-content: space-evenly; */
-  align-items: center;
+  padding-right: var(--100px);
+  /* align-items: center; */
 }
 
 .hero-section {

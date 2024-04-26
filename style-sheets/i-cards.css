@@ -1,28 +1,29 @@
 /* CARDS */
 /* Cards are controlled by the CARD GRIDS UTILITIES */
 .main-card,
-.villain-card {
+.large-card {
   background-color: var(--swatch3-color);
   /* border-bottom: var(--2px) solid var(--swatch2-color); */
   border-radius: var(--10px);
+  margin-top: var(--10px);
   padding: var(--10px);
 }
 
 .main-card p:nth-child(odd) {
-  margin-top: var(--16px);
+  margin-top: var(--35px);
   font-weight: bold;
 }
 
-/* VILLAIN CARDS ^top */
+/* LARGE CARDS ^top */
 
-/* .villain-card {
+/* .large-card {
   background-color: var(--white-color);
   border-radius: var(--8px);
   border-bottom: var(--8px) solid var(--swatch3-color);
   padding: var(--8px);
 } */
 
-.villain-card:nth-child(even) {
+.large-card:nth-child(even) {
   background-color: var(--swatch2-color);
 }
 

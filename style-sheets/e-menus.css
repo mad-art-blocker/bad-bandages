@@ -3,10 +3,8 @@
 .main-menu nav,
 .mobile-menu {
   display: flex;
-  gap: var(--16px);
 
   a {
-    /* display: block; */
     font-weight: 600;
     padding: var(--10px) var(--16px);
     transition: var(--main-transition);
@@ -19,7 +17,7 @@
   background-color: var(--containers-color);
   flex-direction: column;
   height: auto;
-  padding: var(--25px);
+  /* padding: var(--25px); */
   position: fixed;
   right: calc(var(--300px) * -1);
   text-align: center;

@@ -85,18 +85,18 @@
   flex-direction: column;
   gap: var(--16px);
   text-align: center;
-  /* background-color: var(--swatch3-color); */
 }
 .sidebar1-section {
   grid-area: sidebar1Area;
+  /* background-color: var(--swatch3-color); */
 }
 .sidebar2-section {
   grid-area: sidebar2Area;
+  /* background-color: var(--swatch3-color); */
 }
 
 .villain-section {
   grid-area: villainArea;
-  /* background-color: var(--containers-color); */
 }
 
 .footer-section {
