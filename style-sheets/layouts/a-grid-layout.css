@@ -65,7 +65,7 @@
 
 .hero-section {
   grid-area: heroArea;
-  background: url('/bad_bandages2_hero.webp') no-repeat;
+  background: url('/media/bad_bandages2_hero.webp') no-repeat;
   background-attachment: fixed;
   background-size: contain;
   background-position: center;

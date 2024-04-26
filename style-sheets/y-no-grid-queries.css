@@ -48,7 +48,7 @@ Divide # of pixes by 16px:
   }
 
   .hero-section {
-    background: url('/bb-hero1s.webp') no-repeat;
+    background: url('/media/bb-hero1s.webp') no-repeat;
     background-size: var(--400px) calc(var(--300px) + var(--48px));
     background-position: bottom;
     height: var(--700px);
