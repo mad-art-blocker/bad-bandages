@@ -8,8 +8,7 @@
     <link rel="shortcut icon" href="/favicon.png" type="image/png" />
     <!-- <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" /> -->
     <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
-    <!-- The defer keyword is not set because it's a module? Module sets it automatically. -->
-    <script src="./page2.js" type="module"></script>
+
     <!-- CSS is imported inside pages/page2.js  -->
     <!-- <link rel="stylesheet" href="/pages/page2.css" /> -->
   </head>
@@ -34,7 +33,7 @@
         <!-- Middle Header Space -->
         <div class="header-spacer">
           <!-- Hamburger Button -->
-          <button class="hamburger-icon" type="button">
+          <button class="hamburger-iconJS" type="button">
             <img
               src="/hamburger_icon64.svg"
               width="32"
@@ -43,7 +42,7 @@
             />
           </button>
           <!-- Mobile Menu -->
-          <nav class="mobile-menu util-text-bold">
+          <nav class="mobile-menuJS util-text-bold">
             <a href="/">Home</a>
 
             <a href="./page2.html" class="util-active">Page 2</a>
@@ -71,7 +70,9 @@
       </header>
 
       <!-- NAVBAR SECTION -->
-      <nav class="navbar-section">Welcome To Bad Bandages --- navbar-section</nav>
+      <nav class="navbar-section">
+        Empty navbar section | Bad Bandages version 4-28-2024
+      </nav>
       <!-- HERO SECTION -->
       <div class="hero-section">
         <div class="util-container-medium util-margin-inline">
@@ -104,21 +105,19 @@
           <a class="button button-dark button-belt" href="#">Big Ass Button</a>
         </section>
 
-        <blockquote class="util-container-medium">
-          <h2 class="util-text-large util-text-style util-margin-all">
-            "I'll buy that for a dollar!"
-          </h2>
+        <div class="util-container-medium">
+          <blockquote class="util-text-large">"I'll buy that for a dollar!"</blockquote>
           <!-- Testimonials -->
-          <p class="util-text-medium util-margin-bottom">
+          <p class="util-text-medium">
             Don't just take our beer for it, see our success stories from business just
             like yours.
           </p>
-        </blockquote>
+        </div>
 
         <!-- Cards (Testimonials) -->
 
         <div
-          class="util-display-grid util-columns-3 util-container-small util-margin-inline"
+          class="util-display-grid util-columns-3 util-container-medium util-margin-inline"
         >
           <article class="main-card">
             <img
@@ -126,10 +125,10 @@
               src="/beto.webp"
               alt="Cartoon face of a dude"
             />
-            <h5 class="util-text-style">
+            <blockquote>
               "Our drinking business has seen a significant in crease in productivity
               since I started chugging."
-            </h5>
+            </blockquote>
             <p>Katherine Smitten</p>
             <p>Chuggo Company</p>
           </article>
@@ -140,10 +139,10 @@
               src="/beto.webp"
               alt="Cartoon face of a dude"
             />
-            <h5 class="util-text-style">
+            <blockquote>
               "Our drinking business has seen a significant in crease in productivity
               since I started chugging."
-            </h5>
+            </blockquote>
             <p>Ben Al Caughlek</p>
             <p>Beerstein Company</p>
           </article>
@@ -154,10 +153,10 @@
               src="/beto.webp"
               alt="Cartoon face of a dude"
             />
-            <h5 class="util-text-style">
+            <blockquote>
               "Our drinking business has seen a significant in crease in productivity
               since I started chugging."
-            </h5>
+            </blockquote>
             <p>Drew Brewskeemore</p>
             <p>A.A Meeting</p>
           </article>
@@ -200,7 +199,7 @@
         <div
           class="util-display-grid util-columns-2 util-container-small util-margin-inline"
         >
-          <div class="large-card util-margin-topbottom">
+          <div class="large-card">
             <h5 class="util-text-medium">Bullshit Plan</h5>
             <p class="util-margin-topbottom">
               This is a better plan from the Expert plan and I like the color so you can't
@@ -219,7 +218,7 @@
             <a href="#" class="button button-dark button-belt">Get Started</a>
           </div>
 
-          <div class="large-card util-margin-topbottom">
+          <div class="large-card">
             <h5 class="util-text-medium">Bullshit Plan</h5>
             <p class="util-margin-topbottom">
               This is a better plan from the Expert plan and I like the color so you can't
@@ -299,12 +298,14 @@
 
         <div class="foot-space4">
           <p class="util-text-light">
-            <span class="siteTitleJS"></span> <span class="thisYear"></span> | Est.
-            November 2023 By <span class="authorToken"></span> | Powered by
-            <span class="subTitles"></span> All Rights Reserved
+            <span class="siteTitleJS"></span> <span class="thisYearJS"></span> | Est.
+            November 2023 By <span class="authorTokenJS"></span> | Powered by
+            <span class="subTitlesJS"></span> All Rights Reserved
           </p>
         </div>
       </footer>
     </div>
+    <!-- The defer keyword is not set because it's a module? Module sets it automatically? -->
+    <script src="./page2.js" type="module"></script>
   </body>
 </html>

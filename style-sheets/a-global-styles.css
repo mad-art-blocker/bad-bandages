@@ -23,7 +23,7 @@
   --links-light-color: var(--white-color);
   /* --links-dark-color: var(--important-color); */
   /* --hover-light-color: var(--accent-color); */
-  --hover-dark-color: var(--swatch1-color);
+  --hover-dark-color: var(--important-color);
 
   /* REM SIZES */
 
@@ -95,9 +95,11 @@ body {
 a {
   color: var(--links-light-color);
   text-decoration: none;
-}
-a:hover {
-  color: var(--hover-dark-color);
+
+  &:hover,
+  &:focus {
+    color: var(--hover-dark-color);
+  }
 }
 
 ul {

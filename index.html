@@ -8,8 +8,7 @@
     <link rel="shortcut icon" href="/favicon.png" type="image/png" />
     <!-- <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" /> -->
     <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
-    <!-- The defer keyword is not set because it's a module? Module sets it automatically. -->
-    <script src="/pages/home.js" type="module"></script>
+
     <!-- CSS is imported inside pages/home.js  -->
     <!-- <link rel="stylesheet" href="/pages/home.css" /> -->
   </head>
@@ -54,7 +53,7 @@
           </div>
 
           <!-- Hamburger Button -->
-          <button class="hamburger-icon" type="button">
+          <button class="hamburger-iconJS" type="button">
             <img
               src="/hamburger_icon64.svg"
               width="40"
@@ -64,7 +63,7 @@
           </button>
 
           <!-- Mobile Menu -->
-          <nav class="mobile-menu util-text-bold">
+          <nav class="mobile-menuJS util-text-bold">
             <a href="/" class="util-active">Home</a>
 
             <a href="/pages/page2.html">Page 2</a>
@@ -110,10 +109,10 @@
               src="/beto.webp"
               alt="Cartoon face of a dude"
             />
-            <h5 class="util-text-style">
+            <blockquote>
               "Our drinking business has seen a significant in crease in productivity
               since I started chugging."
-            </h5>
+            </blockquote>
             <p>Katherine Smitten</p>
             <p>Chuggo Company</p>
           </article>
@@ -124,10 +123,10 @@
               src="/beto.webp"
               alt="Cartoon face of a dude"
             />
-            <h5 class="util-text-style">
+            <blockquote>
               "Our drinking business has seen a significant in crease in productivity
               since I started chugging."
-            </h5>
+            </blockquote>
             <p>Ben Al Caughlek</p>
             <p>Beerstein Company</p>
           </article>
@@ -138,10 +137,10 @@
               src="/beto.webp"
               alt="Cartoon face of a dude"
             />
-            <h5 class="util-text-style">
+            <blockquote>
               "Our drinking business has seen a significant in crease in productivity
               since I started chugging."
-            </h5>
+            </blockquote>
             <p>Drew Brewskeemore</p>
             <p>A.A Meeting</p>
           </article>
@@ -149,13 +148,13 @@
       </main>
 
       <!-- VILLAIN SECTION - STARTS -->
-      <section class="villain-section util-margin-top">
+      <section class="villain-section">
         <h2>VILLAIN SECTION</h2>
         <!-- Cards -->
         <div
           class="util-display-grid util-columns-2 util-container-small util-margin-inline"
         >
-          <div class="large-card util-margin-topbottom">
+          <div class="large-card">
             <h5 class="util-text-medium">Bullshit Plan</h5>
             <p class="util-margin-topbottom">
               This is a better plan from the Expert plan and I like the color so you can't
@@ -174,7 +173,7 @@
             <a href="#" class="button button-dark button-belt">Get Started</a>
           </div>
 
-          <div class="large-card util-margin-topbottom">
+          <div class="large-card">
             <h5 class="util-text-medium">Bullshit Plan</h5>
             <p class="util-margin-topbottom">
               This is a better plan from the Expert plan and I like the color so you can't
@@ -256,13 +255,15 @@
             </ul>
           </div>
         </div>
-
+        <!-- Anything ending in "JS" are attached to JavaScript -->
         <p class="util-margin-top">
-          <span class="siteTitleJS"></span> <span class="thisYear"></span> | Est. November
-          2023 By <span class="authorToken"></span> | Powered by
-          <span class="subTitles"></span> All rights reserved
+          <span class="siteTitleJS"></span> <span class="thisYearJS"></span> | Est.
+          November 2023 By <span class="authorTokenJS"></span> | Powered by
+          <span class="subTitlesJS"></span> All rights reserved
         </p>
       </footer>
     </div>
+    <!-- The defer keyword is not set because it's a module? Module sets it automatically? -->
+    <script src="/pages/home.js" type="module"></script>
   </body>
 </html>

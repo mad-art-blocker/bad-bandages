@@ -5,8 +5,8 @@
   background-color: var(--swatch3-color);
   /* border-bottom: var(--2px) solid var(--swatch2-color); */
   border-radius: var(--10px);
-  margin-top: var(--10px);
-  padding: var(--10px);
+  margin: var(--48px) 0 var(--48px);
+  padding: var(--16px);
 }
 
 .main-card p:nth-child(odd) {

@@ -44,9 +44,14 @@
 /* .util-text-pretty {
   max-width: 100ch;
   text-wrap: pretty;
+  text-align: justify-all;
 } */
 
-.util-text-style {
+blockquote {
   font-style: italic;
-  text-align: justify;
+  text-wrap: balance;
+  padding: var(--25px);
+  /* &::before {
+    content: '💩';
+  } */
 }

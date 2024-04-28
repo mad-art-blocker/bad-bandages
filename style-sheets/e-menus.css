@@ -1,7 +1,8 @@
 /* Menus (Main) */
 /* Link color is in the index.css*/
+/* Anything ending in "JS" are attached to JavaScript */
 .main-menu nav,
-.mobile-menu {
+.mobile-menuJS {
   display: flex;
 
   a {
@@ -13,7 +14,7 @@
 
 /* Negative numbers doesn't work with variables? */
 /* Display Flex and Gap on top ^ */
-.mobile-menu {
+.mobile-menuJS {
   background-color: var(--containers-color);
   flex-direction: column;
   height: auto;
@@ -26,6 +27,6 @@
   width: calc(var(--200px) + var(--35px));
   z-index: 10;
 }
-.mobile-menu.open {
+.mobile-menuJS.open-menuJS {
   right: 0;
 }

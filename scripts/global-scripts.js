@@ -21,23 +21,23 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Author, Title,  or Token:
-  document.querySelector('.authorToken').textContent = bandagesKeys['role Token'];
+  document.querySelector('.authorTokenJS').textContent = bandagesKeys['role Token'];
 
   // Sub-title or Token:
-  document.querySelector('.subTitles').textContent = bandagesKeys.subTitle;
+  document.querySelector('.subTitlesJS').textContent = bandagesKeys.subTitle;
 
   // Site Logo:
   document.querySelector('.siteLogoJS').src = logoUrl;
 
   // MOBILE MENU
-  const hamburgerButton = document.querySelector('.hamburger-icon');
-  const menuMobile = document.querySelector('.mobile-menu');
-  hamburgerButton.addEventListener('click', () => menuMobile.classList.toggle('open'));
+  const hamburgerButton = document.querySelector('.hamburger-iconJS');
+  const menuMobile = document.querySelector('.mobile-menuJS');
+  hamburgerButton.addEventListener('click', () => menuMobile.classList.toggle('open-menuJS'));
 
 
   // Footer Date:
   const serveYear = new Date();
-  document.querySelector('.thisYear').textContent = serveYear.getFullYear();
+  document.querySelector('.thisYearJS').textContent = serveYear.getFullYear();
 
 
 });

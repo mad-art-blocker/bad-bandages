@@ -41,7 +41,7 @@ Divide # of pixes by 16px:
     display: none;
   }
 
-  .hamburger-icon,
+  .hamburger-iconJS,
   .main-logo {
     display: block;
     margin-inline: auto;
