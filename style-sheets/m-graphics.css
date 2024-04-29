@@ -3,20 +3,19 @@
 /* Main Logo 1 is centered via Media Queries
   Uncomment display block to reverse it and 
   take out main logo in media queries -
-  PNG has no PNG padding  -
 */
 
 .main-logo {
   margin: var(--16px);
+  cursor: pointer;
 }
 
-.mini-icons {
-  /* background-color: var(--swatch2-color); */
+/* .mini-icons {
+  background-color: var(--swatch2-color);
   height: var(--25px);
-}
+} */
 
 .social-icons {
-  width: calc(var(--60px) + var(--4px));
   padding: var(--4px);
 }
 
