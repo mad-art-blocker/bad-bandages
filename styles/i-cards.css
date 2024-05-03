@@ -1,8 +1,10 @@
 /* CARDS */
-/* Cards are controlled by the CARD GRIDS UTILITIES */
+
+/* Cards are controlled by the util-grids UTILITIES */
 .main-card,
 .large-card {
   background-color: var(--swatch3-color);
+
   /* border-bottom: var(--2px) solid var(--swatch2-color); */
   border-radius: var(--10px);
   margin: var(--48px) 0 var(--48px);
@@ -27,12 +29,14 @@
   background-color: var(--swatch2-color);
 }
 
-/*FOOTER CARDS */
+/* FOOTER CARDS */
 
 .footer-card {
   background-color: var(--swatch3-color);
   border-radius: var(--8px);
+
   /* border-bottom: var(--10px) solid var(--bandage-color); */
+
   /* color: var(--light-text-color); */
   padding: var(--16px);
 }

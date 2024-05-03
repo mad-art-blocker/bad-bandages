@@ -1,16 +1,16 @@
 :root {
   /* COLOR VARIABLES */
 
-  --swatch1-color: hsl(259, 57%, 77%);
-  --swatch2-color: hsl(259, 29%, 57%);
-  --swatch3-color: hsl(258, 29%, 44%);
-  --swatch4-color: hsl(260, 33%, 25%);
-  --accent-color: hsl(32, 73%, 66%);
-  --black-color: hsl(259, 35%, 19%);
-  --white-color: hsl(269, 43%, 85%);
-  --highlight-color: var(--accent-color);
-  --important-color: hsl(17, 58%, 56%);
-  --bandage-color: hsl(29, 34%, 63%);
+  --swatch1-color: hsl(259deg 57% 77%);
+  --swatch2-color: hsl(259deg 29% 57%);
+  --swatch3-color: hsl(258deg 29% 44%);
+  --swatch4-color: hsl(260deg 33% 25%);
+  --accent-color: hsl(32deg 73% 66%);
+  --black-color: hsl(259deg 35% 19%);
+  --white-color: hsl(269deg 43% 85%);
+  --highlight-color: hsl(52, 46%, 65%);
+  --important-color: hsl(17deg 58% 56%);
+  --bandage-color: hsl(29deg 34% 63%);
 
   /* /////////////////////////////////////////////////////////// */
 
@@ -21,7 +21,9 @@
   --light-text-color: var(--white-color);
   --dark-text-color: var(--black-color);
   --links-light-color: var(--white-color);
+
   /* --links-dark-color: var(--important-color); */
+
   /* --hover-light-color: var(--accent-color); */
   --hover-dark-color: var(--important-color);
 
@@ -55,10 +57,13 @@ Divide # of pixes by 16px:
   --1000px: 62.5rem;
 
   /* Calc Usage: */
+
   /* calc(var(--4px) + var(--2px)); */
+
   /* calc(var(--400px) + var(--200px) + var(--100px); */
 
   /* Negative numbers work-around?: */
+
   /* calc(var(--300px) * -1); */
 
   /* Animation Transitions 
@@ -87,6 +92,7 @@ body {
   /* Body color in the layouts root-container */
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.7;
+
   /* Get rid of the horizontal scroll-bar: */
   overflow-x: hidden;
 }
@@ -108,6 +114,7 @@ ul {
 
 img {
   background-repeat: no-repeat;
+
   /* box-shadow: 0 0 5px var(--black-color); */
   height: auto;
   font-style: italic;
@@ -115,6 +122,10 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+
+/* .img-fit {
+  object-fit: cover;
+} */
 
 picture,
 svg,
@@ -130,5 +141,6 @@ h4,
 h5,
 h6 {
   color: var(--headings-light-color);
+
   /* text-wrap: balance; */
 }

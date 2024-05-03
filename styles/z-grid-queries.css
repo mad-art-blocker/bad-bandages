@@ -9,7 +9,7 @@ Divide # of pixes by 16px:
 */
 
 /* Navbar menu links */
-@media (min-width: 60rem) and (max-width: 73.75rem) {
+@media (width >= 60rem) and (width <= 73.75rem) {
   .user-section nav a {
     padding: 6px;
   }
@@ -17,10 +17,11 @@ Divide # of pixes by 16px:
 
 /* 960px MEDIA QUERIES */
 
-@media (max-width: 60rem) {
+@media (width <= 60rem) {
   .grid-all {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+
     /* gap: 0px 0px; */
     grid-auto-flow: column;
     grid-template-areas:
@@ -37,6 +38,7 @@ Divide # of pixes by 16px:
   .header-section {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+
     /* gap: 20px; */
     grid-auto-flow: dense;
     grid-template-areas:
@@ -49,6 +51,7 @@ Divide # of pixes by 16px:
   .footer-section {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+
     /* gap: 0px 0px; */
     grid-auto-flow: dense;
     grid-template-areas:
@@ -67,9 +70,11 @@ Divide # of pixes by 16px:
 
 /* 670px MEDIA QUERIES */
 
-@media (max-width: 41.875rem) {
+@media (width <= 41.875rem) {
   /* This are smaller than this font size: */
+
   /* .util-text-bold, */
+
   /* .util-text-medium, */
   .util-text-large,
   .util-text-huge {

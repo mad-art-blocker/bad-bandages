@@ -14,8 +14,10 @@ button {
   text-decoration: none;
   transition: var(--main-transition);
 }
+
 .button:hover {
   opacity: 0.5;
+
   /* border-radius: var(--16px); */
 }
 
@@ -26,13 +28,16 @@ button {
 
 .button-light {
   background-color: var(--bandage-color);
+
   /* border: thin var(--accent-color); */
   color: var(--dark-text-color);
+
   /* padding: 10px; */
 }
 
 .button-dark {
   background-color: var(--swatch4-color);
+
   /* border: thin solid var(--accent-color); */
   color: var(--light-text-color);
 }

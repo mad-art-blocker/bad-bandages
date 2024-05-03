@@ -10,7 +10,7 @@ Divide # of pixes by 16px:
 
 /* 960px MEDIA QUERIES */
 
-@media (max-width: 60rem) {
+@media (width <= 60rem) {
   .util-text-huge {
     font-size: var(--48px);
   }
@@ -18,13 +18,15 @@ Divide # of pixes by 16px:
 
 /* 670px MEDIA QUERIES */
 
-@media (max-width: 41.875rem) {
+@media (width <= 41.875rem) {
   .root-section {
     padding: var(--8px);
   }
 
   /* This are smaller than this font size: */
+
   /* .util-text-bold, */
+
   /* .util-text-medium, */
   .util-text-large,
   .util-text-huge {

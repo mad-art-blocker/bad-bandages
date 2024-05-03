@@ -1,0 +1,30 @@
+/* MARGIN SPACE */
+
+.util-margin-auto {
+  margin: 0 auto;
+  display: block;
+}
+
+.util-margin-inline {
+  margin-inline: auto;
+}
+
+.util-margin-top {
+  margin-top: var(--48px);
+}
+
+.util-margin-bottom {
+  margin-bottom: var(--48px);
+}
+
+.util-margin-topbottom {
+  margin: var(--48px) 0 var(--48px);
+}
+
+.util-margin-leftright {
+  margin: 0 var(--48px) var(--48px);
+}
+
+.util-margin-all {
+  margin-block: var(--60px);
+}
