@@ -127,6 +127,8 @@ img {
   object-fit: cover;
 } */
 
+/* figure element used in other graphics, due to inline set */
+
 picture,
 svg,
 video {

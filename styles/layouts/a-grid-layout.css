@@ -125,12 +125,25 @@
   grid-template-areas: 'footSpaceArea1 footSpaceArea2 footSpaceArea3 footSpaceArea4';
 }
 
+.footer-section input[type='email'] {
+  /* caret-color: var(--important-color); */
+  margin: var(--10px) 0;
+  padding: var(--6px);
+  width: 100%;
+  &:focus-within {
+    background-color: var(--accent-color);
+  }
+}
+
 .foot-space1 {
   grid-area: footSpaceArea1;
 }
 
 .foot-space2 {
   grid-area: footSpaceArea2;
+  figure {
+    display: inline;
+  }
 }
 
 .foot-space3 {
@@ -141,12 +154,4 @@
 
 .foot-space4 {
   grid-area: footSpaceArea4;
-}
-
-.footer-section input[type='email'] {
-  width: 100%;
-  padding: var(--6px);
-  border: var(--4px) solid var(--accent-color);
-  border-radius: var(--8px);
-  margin: var(--10px) 0;
 }
