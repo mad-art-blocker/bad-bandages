@@ -2,6 +2,9 @@
 
 /* Color and padding in the index.css headers. */
 
+/* Self-host the font with Font Source:
+https://fontsource.org/ */
+
 @font-face {
   font-family: 'SVGFont 1';
   src: url('/betolok.otf');

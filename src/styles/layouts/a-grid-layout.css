@@ -78,10 +78,10 @@
   background-size: contain;
   background-position: center;
   height: 85vh;
-}
 
-.hero-section .hero-content {
-  width: 50%;
+  .hero-content {
+    width: 50%;
+  }
 }
 
 .main-section {

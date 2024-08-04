@@ -65,17 +65,12 @@ export default defineConfig({
 
 =================================================================================
 
+- Self-host the font with Font Source:
+https://fontsource.org/
 
 
-- Creating a new Astro project:
--------------------------------
-
-pnpm create astro@latest my-astro-project && cd $_ && code .
-
-pnpm astro telemetry disable
-
-
-
+- Learn Qwik:
+https://www.learn-qwik.com/
 
 ==================================             =================================
                                =====  TO-DO  =====
