@@ -21,6 +21,7 @@ THEE NEW PROJECT TITLE
 
   "scripts": {
     "start": "vite --open",
+    "host": "vite --host",
     "build": "vite build",
     "preview": "vite preview",
     "del-packages": "npx npkill",
@@ -29,16 +30,15 @@ THEE NEW PROJECT TITLE
   },
 
 
-
 =================================================================================
 
 
 
-- Vite.Config.JS basic config:
+- Vite.Config.JS/TS basic config:
 ------------------------------
 
-// Install this first:
-// pnpm i @types/node -D
+//vite.config.ts:
+
 import { resolve } from 'path'
 import { defineConfig } from 'vite'
 
@@ -46,17 +46,22 @@ import { defineConfig } from 'vite'
 const root = resolve(__dirname, 'src')
 const outDir = resolve(__dirname, 'dist')
 
-
+// https://vitejs.dev/config/
+// npm i @types/node -D
+// bun add @types/node -D
 export default defineConfig({
   root,
   plugins: [],
+  server: {
+    port: 3000,
+  },
   build: {
     outDir,
     emptyOutDir: true,
     rollupOptions: {
       input: {
         main: resolve(root, 'index.html'),
-        gallery: resolve(root, 'pages', 'gallery.html'),
+        page2: resolve(root, 'pages', 'page2.html'),
       }
     }
   }
@@ -69,8 +74,6 @@ export default defineConfig({
 https://fontsource.org/
 
 
-- Learn Qwik:
-https://www.learn-qwik.com/
 
 ==================================             =================================
                                =====  TO-DO  =====

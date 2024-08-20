@@ -42,7 +42,7 @@
 }
 
 .hero-section {
-  background: url('/media/bad_bandages2_hero.webp') no-repeat;
+  background: url('/assets/bad_bandages2_hero.webp') no-repeat;
   background-attachment: fixed;
   background-size: contain;
   background-position: bottom;
