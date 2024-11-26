@@ -1,2 +1,2 @@
-import '../scripts/global-scripts.js';
-import './page2.css';
+import "../global-scripts.js";
+import "./page2.css";

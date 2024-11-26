@@ -39,19 +39,19 @@ THEE NEW PROJECT TITLE
 
 //vite.config.ts:
 
-import { resolve } from 'path'
-import { defineConfig } from 'vite'
+// Add the HTML Comment Stripper plugin:
+// deno add jsr:@zade/vite-plugin-strip-html-comments
+// If using Deno use: node:path
+import { resolve } from "node:path";
+import { defineConfig } from "vite";
+import { stripHTMLComments } from "@zade/vite-plugin-strip-html-comments";
 
+const root = resolve(__dirname, "src");
+const outDir = resolve(__dirname, "dist");
 
-const root = resolve(__dirname, 'src')
-const outDir = resolve(__dirname, 'dist')
-
-// https://vitejs.dev/config/
-// npm i @types/node -D
-// bun add @types/node -D
 export default defineConfig({
   root,
-  plugins: [],
+  plugins: [stripHTMLComments()],
   server: {
     port: 3000,
   },
@@ -60,12 +60,12 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(root, 'index.html'),
-        page2: resolve(root, 'pages', 'page2.html'),
-      }
-    }
-  }
-})
+        main: resolve(root, "index.html"),
+        page2: resolve(root, "pages", "page2.html"),
+      },
+    },
+  },
+});
 
 
 =================================================================================

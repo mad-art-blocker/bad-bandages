@@ -1,6 +1,7 @@
 /* MARGIN SPACE */
 
 .util-margin-auto {
+  /* align-content: center; */
   margin: 0 auto;
   display: block;
 }

@@ -1,5 +1,5 @@
 # Bad Bandages HTML CSS Framework
 
-## Ongoing developing an HTML and CSS framework
+## Ongoing development of an HTML and CSS framework
 
-HTML and CSS framework with minimal JavaScript (you doin't even need the JavaScript). Quickly get stated on some static web pages with no CSS and JavaScript libraries, no meta-frameworks; but [Vite](https://vitejs.dev/) is used for a simple workflow.
+HTML and CSS framework with minimal JavaScript (you doin't even need the JaviScreept). Quickly get stated on some static web pages, wiki, links index notes etc... [Vite](https://vitejs.dev/) build tool is used for a simple workflow.
