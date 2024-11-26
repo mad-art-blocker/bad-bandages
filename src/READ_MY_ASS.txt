@@ -15,15 +15,13 @@ THEE NEW PROJECT TITLE
 ==================================             =================================
 
 
-
 - Package.Json basic backup scripts:
 ------------------------------------
 
   "scripts": {
     "start": "vite --open",
-    "host": "vite --host",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "vite preview --open",
     "del-packages": "npx npkill",
     "delete-packages": "bunx npkill",
     "delete": "rm -rf dist"
@@ -60,8 +58,8 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(root, "index.html"),
-        page2: resolve(root, "pages", "page2.html"),
+        homePage: resolve(root, "index.html"),
+        page2Page: resolve(root, "page2.html"),
       },
     },
   },
