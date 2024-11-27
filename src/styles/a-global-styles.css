@@ -24,9 +24,6 @@
   --links-light-color: var(--white-color);
   --links-dark-color: var(--black-color);
 
-  /* --hover-light-color: var(--important-color); */
-  --hover-dark-color: var(--important-color);
-
   /* REM SIZES */
 
   /* PIXELS TO REM:
@@ -105,7 +102,7 @@ a {
 
   &:hover,
   &:focus {
-    color: var(--hover-dark-color);
+    color: var(--important-color);
   }
 }
 
@@ -119,7 +116,7 @@ a {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
   &:hover {
-    box-shadow: inset 100px 0 0 0 var(--hover-dark-color);
+    box-shadow: inset 100px 0 0 0 var(--important-color);
     color: rgb(0, 0, 0);
   }
 } */

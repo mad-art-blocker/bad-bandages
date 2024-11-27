@@ -1,2 +1,2 @@
 import "../global-scripts.js";
-import "./home.css";
+import "./index.css";

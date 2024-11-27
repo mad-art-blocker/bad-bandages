@@ -6,10 +6,10 @@
 
 .util-light-links {
   color: var(--links-light-color);
-  
+
   &:hover,
   &:focus {
-    color: var(--hover-dark-color);
+    color: var(--important-color);
   }
 }
 
