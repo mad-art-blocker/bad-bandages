@@ -15,9 +15,9 @@
   height: var(--25px);
 } */
 
-.social-icons {
-  padding: var(--4px);
-}
+/* .social-icons {
+  padding-top: var(--10px);
+} */
 
 .hamburger-iconJS {
   background-color: var(--swatch2-color);

@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const bandagesKeys = {
     webSiteTitle: "bad.bandages",
     subTitle: "Malas Vendas",
-    "role Token": "Beto Vector",
+    "role Token": "Mad Art Blocker",
   };
 
   // Website Title Name
