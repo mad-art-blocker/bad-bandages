@@ -1,6 +1,3 @@
-README FILE 2024-11-30 
-========================
-
 # Bad Bandages HTML CSS Framework
 
 ## Ongoing development of an HTML and CSS framework
