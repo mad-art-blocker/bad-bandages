@@ -1,14 +1,14 @@
-@import url('../styles/a-global-styles.css');
-@import url('../styles/layouts/a-grid-layout.css');
+@import url("../styles/a-global-styles.css");
+@import url("../styles/grid-layouts/a-grid-layout.css");
 
-/* @import '../styles/layouts/a-no-grid-layout.css'; */
-@import url('../styles/bandages.css');
-@import url('../styles/utilities/util-index.css');
-@import url('../styles/e-menus.css');
-@import url('../styles/g-buttons.css');
-@import url('../styles/i-cards.css');
-@import url('../styles/k-animations.css');
-@import url('../styles/m-graphics.css');
+/* @import '../styles/grid-layouts/a-no-grid-layout.css'; */
+@import url("../styles/bandages.css");
+@import url("../styles/utilities/util-index.css");
+@import url("../styles/e-menus.css");
+@import url("../styles/g-buttons.css");
+@import url("../styles/i-cards.css");
+@import url("../styles/k-animations.css");
+@import url("../styles/m-graphics.css");
 
 /* @import '../styles/y-no-grid-queries.css'; */
-@import url('../styles/z-grid-queries.css');
+@import url("../styles/z-grid-queries.css");

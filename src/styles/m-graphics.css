@@ -6,7 +6,7 @@
 */
 
 .main-logo {
-  margin: var(--16px);
+  margin: var(--8px);
   cursor: pointer;
 }
 
