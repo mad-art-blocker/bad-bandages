@@ -22,12 +22,12 @@
   /* gap: 0px 0px; */
   grid-auto-flow: row;
   grid-template-areas:
-    'headerArea headerArea headerArea headerArea headerArea headerArea'
-    'navbarArea navbarArea navbarArea navbarArea navbarArea navbarArea'
-    ' heroArea heroArea heroArea heroArea heroArea heroArea'
-    ' sidebar1Area mainArea mainArea mainArea mainArea sidebar2Area'
-    'villainArea villainArea villainArea villainArea villainArea villainArea'
-    'footerArea footerArea footerArea footerArea footerArea footerArea';
+    "headerArea headerArea headerArea headerArea headerArea headerArea"
+    "navbarArea navbarArea navbarArea navbarArea navbarArea navbarArea"
+    " heroArea heroArea heroArea heroArea heroArea heroArea"
+    " sidebar1Area mainArea mainArea mainArea mainArea sidebar2Area"
+    "villainArea villainArea villainArea villainArea villainArea villainArea"
+    "footerArea footerArea footerArea footerArea footerArea footerArea";
 }
 
 .header-section {
@@ -51,7 +51,7 @@
   /* Place items end | start | center */
   place-items: center;
   grid-auto-flow: row;
-  grid-template-areas: 'logoArea headerSpacerArea userArea';
+  grid-template-areas: "logoArea headerSpacerArea userArea";
 }
 
 .logo-section {
@@ -73,7 +73,7 @@
 
 .hero-section {
   grid-area: heroArea;
-  background: url('/media/bad_bandages_hero.svg') no-repeat;
+  background: url("/media/bad_bandages_hero.svg") no-repeat;
   background-attachment: fixed;
   background-size: contain;
   background-position: center;
@@ -88,24 +88,32 @@
   grid-area: mainArea;
 }
 
-.sidebar1-section nav,
-.sidebar2-section nav {
+.sidebar1-section {
+  grid-area: sidebar1Area;
+  /* background-color: var(--swatch4-color); */
   display: flex;
   flex-direction: column;
   gap: var(--16px);
   text-align: center;
-}
 
-.sidebar1-section {
-  grid-area: sidebar1Area;
-
-  /* background-color: var(--swatch3-color); */
+  ul {
+    background-color: var(--swatch3-color);
+    /* border-radius: var(--8px); */
+  }
 }
 
 .sidebar2-section {
   grid-area: sidebar2Area;
+  /* background-color: var(--swatch4-color); */
+  display: flex;
+  flex-direction: column;
+  gap: var(--16px);
+  text-align: center;
 
-  /* background-color: var(--swatch3-color); */
+  ul {
+    background-color: var(--swatch3-color);
+    /* border-radius: var(--8px); */
+  }
 }
 
 .villain-section {
@@ -122,10 +130,11 @@
   /* gap: 0px var(--10px); */
   place-items: center stretch;
   grid-auto-flow: row;
-  grid-template-areas: 'footSpaceArea1 footSpaceArea2 footSpaceArea3 footSpaceArea4';
+  grid-template-areas:
+    "footSpaceArea1 footSpaceArea2 footSpaceArea3 footSpaceArea4";
 }
 
-.footer-section input[type='email'] {
+.footer-section input[type="email"] {
   /* caret-color: var(--important-color); */
   margin: var(--10px) 0;
   padding: var(--6px);

@@ -4,19 +4,6 @@
   color: var(--accent-color);
 }
 
-.util-light-links {
-  color: var(--links-light-color);
-
-  &:hover,
-  &:focus {
-    color: var(--important-color);
-  }
-}
-
-.util-dark-links {
-  color: var(--links-dark-color);
-}
-
 .util-highlight,
 mark {
   background-color: var(--highlight-color);

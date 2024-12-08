@@ -13,10 +13,11 @@
   text-decoration: none;
   transition: var(--main-transition);
 
-  /* &:hover {
-    opacity: 0.5;
-    border-radius: var(--25px);
-  } */
+  &:hover {
+    background-color: var(--black-color);
+    /* opacity: 0.5; */
+    /* border-radius: var(--16px); */
+  }
 }
 
 .button--dark {
