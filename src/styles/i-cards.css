@@ -8,15 +8,15 @@
   /* border-bottom: var(--2px) solid var(--swatch2-color); */
   border-radius: var(--10px);
   margin: var(--48px) 0 var(--48px);
-  padding: var(--16px);
+  padding: var(--10px);
 }
 
-.main-card p:nth-child(odd) {
-  margin-top: var(--35px);
+.main-card p:nth-child(even) {
   font-weight: bold;
+  margin: var(--25px);
 }
 
-/* LARGE CARDS ^top */
+/* LARGE CARDS ^top large-card is stacked to the main-card */
 
 /* .large-card {
   background-color: var(--white-color);

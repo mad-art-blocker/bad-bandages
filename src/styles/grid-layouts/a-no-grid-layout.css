@@ -42,7 +42,7 @@
 }
 
 .hero-section {
-  background: url('/media/bad_bandages_hero.svg') no-repeat;
+  background: url("/media/bad_bandages_hero.svg") no-repeat;
   background-attachment: fixed;
   background-size: contain;
   background-position: bottom;
@@ -68,7 +68,7 @@
   padding-top: var(--48px);
 }
 
-.footer-section input[type='email'] {
+.footer-section input[type="email"] {
   /* caret-color: var(--important-color); */
   margin: var(--10px) 0;
   padding: var(--6px);

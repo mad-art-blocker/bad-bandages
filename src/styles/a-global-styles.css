@@ -72,17 +72,17 @@
 
 /* GLOBALS */
 
-html {
-  box-sizing: border-box;
-  font-size: 100%;
-}
-
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+}
+
+html {
+  font-size: 100%;
 }
 
 body {
@@ -97,7 +97,6 @@ body {
 /* other links color and hover are in the utilities folder, helpers css file. */
 
 a {
-  text-decoration: none;
   color: inherit;
 
   &:hover,
@@ -112,7 +111,6 @@ a {
   font-size: larger;
   margin: 0 -0.25rem;
   padding: 0 0.25rem;
-  text-decoration: none;
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
   &:hover {
