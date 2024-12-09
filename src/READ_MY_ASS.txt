@@ -15,6 +15,16 @@ THEE NEW PROJECT TITLE
 ==================================             =================================
 
 
+**** Install Vite via Deno:
+https://docs.deno.com/runtime/fundamentals/web_dev/#vite
+
+deno run -A npm:create-vite@latest
+cd my-vite-app
+deno install
+deno task dev
+
+-----------------------------------------------
+
 //- package.json file (optional):
 //------------------------------------
 
