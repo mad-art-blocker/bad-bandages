@@ -65,6 +65,7 @@
 
 .footer-section {
   /* background-color: var(--containers-color); */
+  text-align: center;
   padding-top: var(--48px);
 }
 

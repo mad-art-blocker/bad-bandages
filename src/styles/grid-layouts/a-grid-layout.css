@@ -27,7 +27,8 @@
     " heroArea heroArea heroArea heroArea heroArea heroArea"
     " sidebar1Area mainArea mainArea mainArea mainArea sidebar2Area"
     "villainArea villainArea villainArea villainArea villainArea villainArea"
-    "footerArea footerArea footerArea footerArea footerArea footerArea";
+    "footerArea footerArea footerArea footerArea footerArea footerArea"
+    "footerArea2 footerArea2 footerArea2 footerArea2 footerArea2 footerArea2";
 }
 
 .header-section {
@@ -118,17 +119,18 @@
 
 .villain-section {
   grid-area: villainArea;
+  background-color: var(--containers-color);
 }
 
 .footer-section {
   grid-area: footerArea;
-  background-color: var(--swatch4-color);
+  /* background-color: var(--containers-color); */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
 
   /* gap: 0px var(--10px); */
-  place-items: center stretch;
+  place-items: center;
   grid-auto-flow: row;
   grid-template-areas:
     "footSpaceArea1 footSpaceArea2 footSpaceArea3 footSpaceArea4";
@@ -163,4 +165,10 @@
 
 .foot-space4 {
   grid-area: footSpaceArea4;
+}
+
+.footer-section2 {
+  grid-area: footerArea2;
+  /* background-color: var(--containers-color); */
+  text-align: center;
 }

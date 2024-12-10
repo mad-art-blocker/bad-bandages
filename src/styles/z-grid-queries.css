@@ -25,14 +25,15 @@ Divide # of pixes by 16px:
     /* gap: 0px 0px; */
     grid-auto-flow: column;
     grid-template-areas:
-      'headerArea'
-      'navbarArea'
-      'heroArea'
-      'mainArea'
-      'sidebar1Area'
-      'sidebar2Area'
-      'villainArea'
-      'footerArea';
+      "headerArea"
+      "navbarArea"
+      "heroArea"
+      "mainArea"
+      "sidebar1Area"
+      "sidebar2Area"
+      "villainArea"
+      "footerArea"
+      "footerArea2";
   }
 
   .header-section {
@@ -42,9 +43,9 @@ Divide # of pixes by 16px:
     /* gap: 20px; */
     grid-auto-flow: dense;
     grid-template-areas:
-      'logoArea'
-      'headerSpacerArea'
-      'userArea';
+      "logoArea"
+      "headerSpacerArea"
+      "userArea";
     grid-area: headerArea;
   }
 
@@ -55,11 +56,10 @@ Divide # of pixes by 16px:
     /* gap: 0px 0px; */
     grid-auto-flow: dense;
     grid-template-areas:
-      'footSpaceArea1'
-      'footSpaceArea2'
-      'footSpaceArea3'
-      'footSpaceArea4'
-      'footSpaceArea5';
+      "footSpaceArea1"
+      "footSpaceArea2"
+      "footSpaceArea3"
+      "footSpaceArea4";
     grid-area: footerArea;
   }
 
@@ -97,7 +97,7 @@ Divide # of pixes by 16px:
   }
 
   .hero-section {
-    background: url('/media/small-hero-villian.webp') no-repeat;
+    background: url("/media/small-hero-villian.webp") no-repeat;
     background-size: var(--400px) calc(var(--300px) + var(--48px));
     background-position: bottom;
     height: var(--700px);

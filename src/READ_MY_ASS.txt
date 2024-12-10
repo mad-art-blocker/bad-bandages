@@ -15,18 +15,8 @@ THEE NEW PROJECT TITLE
 ==================================             =================================
 
 
-**** Install Vite via Deno:
-https://docs.deno.com/runtime/fundamentals/web_dev/#vite
-
-deno run -A npm:create-vite@latest
-cd my-vite-app
-deno install
-deno task dev
-
------------------------------------------------
-
-//- package.json file (optional):
-//------------------------------------
+- Package.Json basic backup scripts:
+------------------------------------
 
   "scripts": {
     "start": "vite --open",
@@ -42,33 +32,24 @@ deno task dev
 
 
 
-//- Vite.Config.JS/TS file:
-//------------------------------
+- Vite.Config.JS/TS basic config:
+------------------------------
 
-//vite.config.js:
+//vite.config.ts:
 
-// Add the HTML Comment Stripper plugin (optional):
+// Add the HTML Comment Stripper plugin:
 // deno add jsr:@zade/vite-plugin-strip-html-comments
-
-// Purge unused CSS, don't know if it's working or not (optional):
-// https://github.com/jowast/vite-plugin-purgecss
-
-// If you're not using the plugins, take them off from importing them and on the plugins array under defineConfig.
-
 // If using Deno use: node:path
 import { resolve } from "node:path";
 import { defineConfig } from "vite";
 import { stripHTMLComments } from "@zade/vite-plugin-strip-html-comments";
-import pluginPurgeCss from "@mojojoejo/vite-plugin-purgecss";
 
 const root = resolve(__dirname, "src");
 const outDir = resolve(__dirname, "dist");
 
 export default defineConfig({
   root,
-  plugins: [stripHTMLComments(), pluginPurgeCss({
-    variables: true,
-  }),],
+  plugins: [stripHTMLComments()],
   server: {
     port: 3000,
   },
@@ -77,20 +58,18 @@ export default defineConfig({
     emptyOutDir: true,
     rollupOptions: {
       input: {
-        main: resolve(root, "index.html"),
-        page2: resolve(root, "page2.html")
+        homePage: resolve(root, "index.html"),
+        page2Page: resolve(root, "page2.html"),
       },
     },
   },
 });
 
 
+=================================================================================
 
-==================================             =================================
-                          =====  TROUBLESHOOTING  =====
-===================================            =================================
-
-
+- Self-host the font with Font Source:
+https://fontsource.org/
 
 
 
@@ -99,8 +78,5 @@ export default defineConfig({
 ===================================            =================================
 
  - A lot of shit to do.
-
-- Self-host the font with Font Source:
-https://fontsource.org/
 
 

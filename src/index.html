@@ -240,7 +240,7 @@
       </section>
 
       <!-- FOOTER - START -->
-      <footer class="footer-section util-text-center">
+      <footer class="footer-section">
         <div class="util-display-grid util-columns-bandage">
           <div>
             <h4 class="util-text-bold">Say what's up:</h4>
@@ -296,21 +296,38 @@
             </a>
           </div>
           <div class="footer-card">
-            <h5>Subscribe to our newsletter</h5>
-            <form>
+            <h5>Name</h5>
+            <form action="https://api.web3forms.com/submit" method="POST">
+              <input
+                type="hidden"
+                name="access_key"
+                value="YOUR_ACCESS_KEY_HERE"
+              >
+
+              <input type="text" name="name" required>
               <input
                 type="email"
-                name="shit"
-                id="email"
-                autocomplete="off"
+                name="email"
                 placeholder="Enter your BS email"
-              />
+                required
+              >
+              <textarea
+                name="message"
+                required
+                placeholder="Message"
+                required
+              ></textarea>
+              <input
+                type="hidden"
+                name="redirect"
+                value="https://web3forms.com/success"
+              >
               <button
                 class="button button--dark button-belt"
                 name="submit form button"
                 type="submit"
               >
-                THEE BUTTON
+                Send
               </button>
             </form>
           </div>

@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // WEBSITE TITLES/INTERFACE PROPERTIES:
   const bandagesKeys = {
     webSiteTitle: "bad.bandages",
-    subTitle: "Malas Vendas",
+    subTitle: "malas vendas",
     "role Token": "Mad Art Blocker",
   };
 
