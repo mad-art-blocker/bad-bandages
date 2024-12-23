@@ -2,7 +2,7 @@
 
 .util-display-grid {
   display: grid;
-  gap: 0 var(--25px);
+  gap: var(--10px);
 }
 
 .util-columns-2 {

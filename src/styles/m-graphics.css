@@ -7,7 +7,6 @@
 
 .main-logo {
   margin: var(--8px);
-  cursor: pointer;
 }
 
 /* .mini-icons {
@@ -29,6 +28,6 @@
   padding: var(--8px);
   position: fixed;
   right: var(--16px);
-  top: var(--16px);
+  top: var(--25px);
   z-index: 20;
 }

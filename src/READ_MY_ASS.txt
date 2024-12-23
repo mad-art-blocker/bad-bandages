@@ -24,7 +24,7 @@ THEE NEW PROJECT TITLE
     "preview": "vite preview --open",
     "del-packages": "npx npkill",
     "delete-packages": "bunx npkill",
-    "delete": "rm -rf dist"
+    "delete": "rm -rf dist server tmp"
   },
 
 
