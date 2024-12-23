@@ -9,10 +9,12 @@
   margin: var(--8px);
 }
 
-/* .mini-icons {
-  background-color: var(--swatch2-color);
-  height: var(--25px);
-} */
+.mini-icons {
+  &:hover {
+    background-color: var(--important-color);
+    border-radius: 50%;
+  }
+}
 
 /* .social-icons {
   padding-top: var(--10px);
