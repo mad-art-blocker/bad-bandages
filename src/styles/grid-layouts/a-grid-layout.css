@@ -94,15 +94,19 @@
   flex-direction: column;
   gap: var(--16px);
   text-align: center;
-  /* Get rid of position and top if you don't want it sticky */
-  position: sticky;
-  top: var(--100px);
+  /* Uncomment height, position and top if you want it sticky. Greater of 60vh would
+   make the footer's links unusable. */
+
+  /* height: 60vh; */
+  /* position: sticky; */
+  /* top: var(--100px); */
 
   ul {
     background-color: var(--swatch3-color);
     /* border-radius: var(--8px); */
   }
 }
+
 
 .sidebar2-section {
   grid-area: sidebar2Area;
