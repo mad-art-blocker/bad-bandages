@@ -17,8 +17,6 @@
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto;
 
-  /* grid-template-rows: repeat(6, 200px); */
-
   /* gap: 0px 0px; */
   grid-auto-flow: row;
   grid-template-areas:
@@ -96,6 +94,9 @@
   flex-direction: column;
   gap: var(--16px);
   text-align: center;
+  /* Get rid of position and top if you don't want it sticky */
+  position: sticky;
+  top: var(--100px);
 
   ul {
     background-color: var(--swatch3-color);
@@ -132,7 +133,8 @@
   /* gap: 0px var(--10px); */
   place-items: center;
   grid-auto-flow: row;
-  grid-template-areas: "footSpaceArea1 footSpaceArea2 footSpaceArea3 footSpaceArea4";
+  grid-template-areas:
+    "footSpaceArea1 footSpaceArea2 footSpaceArea3 footSpaceArea4";
 }
 
 .footer-section input[type="email"] {
