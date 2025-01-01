@@ -296,32 +296,42 @@
           </a>
         </div>
         <div class="footer-card">
-          <h5>Name</h5>
           <form action="https://api.web3forms.com/submit" method="POST">
             <input
               type="hidden"
               name="access_key"
               value="YOUR_ACCESS_KEY_HERE"
-            >
+            />
 
-            <input type="text" name="name" required>
+            <input
+              type="text"
+              required
+              type="email"
+              name="email"
+              placeholder="Enter your BS Name"
+              required
+            />
+
             <input
               type="email"
               name="email"
-              placeholder="Enter your BS email"
+              placeholder="Enter your BS E-mail"
               required
-            >
+            />
+
             <textarea
               name="message"
               required
               placeholder="Message"
               required
             ></textarea>
+
             <input
               type="hidden"
               name="redirect"
-              value="https://web3forms.com/success"
-            >
+              value=""
+            />
+
             <button
               class="button button--dark button-belt"
               name="submit form button"

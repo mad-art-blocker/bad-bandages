@@ -72,7 +72,7 @@
 
 .hero-section {
   grid-area: heroArea;
-  background: url("../../media/bad_bandages_hero.svg") no-repeat;
+  background: url("../../media/hero.png") no-repeat;
   background-attachment: fixed;
   background-size: contain;
   background-position: center;
@@ -281,7 +281,7 @@ Divide # of pixes by 16px:
   }
 
   .hero-section {
-    background: url("../../media/small-hero-villian.webp") no-repeat;
+    background: url("../../media/hero-small.png") no-repeat;
     background-size: var(--400px) calc(var(--300px) + var(--48px));
     background-position: bottom;
     height: var(--700px);
