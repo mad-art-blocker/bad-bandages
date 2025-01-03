@@ -141,12 +141,12 @@ img {
 
 /* figure element used in other graphics, due to inline set */
 
-picture,
+/* picture,
 svg,
 video {
   display: block;
   max-width: 100%;
-}
+} */
 
 h1,
 h2,
