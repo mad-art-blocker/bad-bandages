@@ -66,17 +66,47 @@
 }
 
 .navbar-section {
-  /* background-color: var(--containers-color); */
   grid-area: navbarArea;
+  align-items: center;
+  /* background-color: var(--swatch3-color); */
+  display: flex;
+  flex-direction: row-reverse;
+  height: auto;
+  margin-right: calc(var(--100px) + var(--35px));
 }
+.search-box {
+  position: relative;
+margin: var(--16px);
+
+  input {
+    background-color: var(--white-color);
+    border-radius: var(--8px);
+    font-size: var(--25px);
+    padding: var(--10px);
+    width: calc(var(--300px) + var(--48px));
+  }
+  .search-img {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 2rem;
+  }
+}
+.search-box input::placeholder {
+  font-size: calc(var(--16px) + var(--2px));
+  font-weight: 600;
+  opacity: 0.4;
+}
+/* End of Navbar Section */
 
 .hero-section {
   grid-area: heroArea;
   background: url("../../media/hero.png") no-repeat;
   background-attachment: fixed;
   background-size: contain;
-  background-position: center;
-  height: 85vh;
+  background-position: bottom;
+  height: 90vh;
 
   .hero-content {
     width: 50%;
@@ -231,6 +261,13 @@ Divide # of pixes by 16px:
       "headerSpacerArea"
       "userArea";
     grid-area: headerArea;
+  }
+
+  .navbar-section {
+    grid-area: navbarArea;
+    flex-direction: column;
+    margin-right: 0;
+
   }
 
   .footer-section {
