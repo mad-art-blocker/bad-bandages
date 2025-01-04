@@ -1,33 +1,38 @@
 /* BUTTONS */
 
 .button {
-  --button-bg: var(--swatch1-color);
+  --button-bg: var(--bandage-color);
   color: var(--black-color);
-  border: none;
   border-radius: var(--8px);
   background: var(--button-bg);
   cursor: pointer;
   display: inline-block;
+  font-size: large;
   font-weight: 600;
   padding: var(--16px) var(--16px);
-  text-decoration: none;
+  margin-right: var(--16px);
   transition: var(--main-transition);
-
+  
   &:hover {
-    background-color: var(--black-color);
-    /* opacity: 0.5; */
+    background-color: var(--swatch4-color);
+  color: var(--white-color);
     /* border-radius: var(--16px); */
   }
 }
 
 .button--dark {
   --button-bg: var(--swatch4-color);
-
-  /* border: thin solid var(--accent-color); */
   color: var(--light-text-color);
+
+  &:hover {
+    background-color: var(--swatch3-color);
+  }
 }
 
+
+/* Large Button */
 .button-belt {
   text-align: center;
   width: 100%;
 }
+
