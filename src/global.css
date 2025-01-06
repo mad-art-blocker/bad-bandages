@@ -4,7 +4,7 @@
   --white-color: hsl(270, 21%, 89%);
   --swatch1-color: hsl(259deg 57% 77%);
   --swatch2-color: hsl(259deg 29% 57%);
-  --swatch3-color: hsl(258deg 29% 44%);
+  --swatch3-color: hsl(259, 32%, 42%);
   --swatch4-color: hsl(260deg 33% 25%);
   --black-color: hsl(261, 47%, 15%);
 
@@ -130,9 +130,8 @@ ul {
 }
 
 img {
-  background-repeat: no-repeat;
   height: auto;
-  font-style: italic;
+  /* font-style: italic; */
   /* shape-margin: calc(var(--10px) + var(--2px)); */
   max-width: 100%;
   vertical-align: middle;

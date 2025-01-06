@@ -142,12 +142,16 @@ Divide # of pixes by 16px:
   }
 
   .hero-section .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: var(--35px);
     width: 100%;
-    text-align: center;
+    /* text-align: center; */
   }
 
   .hero-section .button {
-    margin-bottom: var(--16px);
+    margin-bottom: var(--25px);
     display: block;
   }
 
