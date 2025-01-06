@@ -147,7 +147,6 @@ Divide # of pixes by 16px:
     align-items: center;
     margin-top: var(--35px);
     width: 100%;
-    /* text-align: center; */
   }
 
   .hero-section .button {
