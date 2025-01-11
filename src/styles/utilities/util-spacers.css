@@ -19,13 +19,17 @@
 }
 
 .util-margin-topbottom {
-  margin: var(--48px) 0 var(--48px);
+  margin: var(--48px) 0;
 }
 
-.util-margin-leftright {
-  margin: 0 var(--48px) var(--48px);
-}
+/* Not used */
 
-.util-margin-all {
-  margin-block: var(--60px);
-}
+/* .util-margin-rightleft {
+  margin: 0 var(--48px);
+} */
+
+/* Not used */
+
+/* .util-margin-all {
+  margin-block: var(--48px);
+} */

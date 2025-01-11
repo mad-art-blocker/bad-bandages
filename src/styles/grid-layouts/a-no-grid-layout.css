@@ -157,7 +157,7 @@ Divide # of pixes by 16px:
   /* Cards to stack */
   .util-columns-2,
   .util-columns-3,
-  .util-columns-4,
+  /* .util-columns-4, */
   .util-columns-bandage {
     grid-template-columns: 1fr;
   }

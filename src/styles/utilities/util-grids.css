@@ -13,9 +13,11 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-.util-columns-4 {
+/* Not used, uncomment in media queries if using */
+
+/* .util-columns-4 {
   grid-template-columns: repeat(4, 1fr);
-}
+} */
 
 .util-columns-bandage {
   grid-template-columns: 1fr fit-content(50%) 1fr;
