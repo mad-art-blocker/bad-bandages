@@ -9,9 +9,11 @@
   display: inline-block;
   font-size: large;
   font-weight: 600;
-  padding: var(--16px) var(--16px);
-  margin-right: var(--16px);
+  height: var(--80px);
+  margin-bottom: var(--16px);
+  padding: var(--16px);
   transition: var(--main-transition);
+  width: auto;
   
   &:hover {
     background-color: var(--swatch4-color);
@@ -33,6 +35,7 @@
 /* Large Button */
 .button-belt {
   text-align: center;
+  /* margin: 0 auto; */
   width: 100%;
 }
 

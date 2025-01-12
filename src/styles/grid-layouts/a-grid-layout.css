@@ -8,7 +8,6 @@
  its own color. */
 
 .root-section {
-  background-color: var(--body-color);
   color: var(--light-text-color);
 }
 

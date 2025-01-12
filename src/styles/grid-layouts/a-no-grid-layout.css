@@ -7,7 +7,6 @@
  they are colored by the body background color or other color. */
 
 .root-section {
-  background-color: var(--body-color);
   color: var(--light-text-color);
 }
 
@@ -54,17 +53,16 @@
 }
 
 .main-section {
+  background-color: var(--containers-color);
   height: auto;
 }
 
 .villain-section {
   background-color: var(--containers-color);
-
   /* height: auto; */
 }
 
 .footer-section {
-  /* background-color: var(--containers-color); */
   text-align: center;
   padding-top: var(--48px);
 }
@@ -110,9 +108,6 @@ Divide # of pixes by 16px:
 
   /* This are smaller than this font size: */
 
-  /* .util-text-bold, */
-
-  /* .util-text-medium, */
   .util-text-large,
   .util-text-huge {
     font-size: var(--35px);
@@ -150,7 +145,7 @@ Divide # of pixes by 16px:
   }
 
   .hero-section .button {
-    margin-bottom: var(--25px);
+    margin: var(--16px) 0;
     display: block;
   }
 
