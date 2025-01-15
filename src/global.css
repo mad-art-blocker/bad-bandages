@@ -6,7 +6,7 @@
   --swatch2-color: hsl(259deg 29% 57%);
   --swatch3-color: hsl(259, 32%, 42%);
   --swatch4-color: hsl(260deg 33% 25%);
-  --black-color: hsl(261, 47%, 15%);
+  --black-color: hsl(263, 52%, 10%);
 
   --accent-color: hsl(32deg 73% 66%);
   --highlight-color: hsl(52, 46%, 65%);
@@ -92,8 +92,13 @@ body {
   background-color: var(--body-color);
   /* font-weight: 500; */
   font-style: normal;
-  font-family: "Ubuntu", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
-  Arial, sans-serif;
+  font-family:
+    "Ubuntu",
+    "Lucida Sans Unicode",
+    "Lucida Grande",
+    "Lucida Sans",
+    Arial,
+    sans-serif;
   line-height: 1.7;
 
   /* Get rid of the horizontal scroll-bar: */
