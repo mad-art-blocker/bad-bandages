@@ -8,8 +8,9 @@
   cursor: pointer;
   display: inline-block;
   font-size: large;
+
   font-weight: 600;
-  height: var(--80px);
+  height: calc(var(--60px) + var(--10px));
   margin-bottom: var(--16px);
   padding: var(--16px);
   transition: var(--main-transition);
