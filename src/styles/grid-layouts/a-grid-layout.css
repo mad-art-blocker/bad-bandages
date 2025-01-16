@@ -210,7 +210,7 @@ Divide # of pixes by 16px:
 /* Header menu links */
 @media (width >= 60rem) and (width <= 73.75rem) {
   .user-section nav a {
-    padding: var(--16px);
+    padding: var(--10px);
   }
 }
 
