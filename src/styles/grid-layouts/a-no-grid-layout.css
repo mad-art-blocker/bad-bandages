@@ -13,17 +13,15 @@
 .header-section {
   background-color: var(--containers-color);
   height: auto;
-
-  /* height: calc(var(--100px) + var(--10px)); */
 }
 
 .navbar-section {
+  background-color: var(--swatch3-color);
   animation: stickyNav linear forwards;
   animation-timeline: view();
   animation-range-start: 150vh;
   animation-range-end: 180vh;
 
-  /* background-color: var(--containers-color); */
   position: sticky;
   top: 0;
   z-index: 10;
@@ -41,7 +39,7 @@
 }
 
 .hero-section {
-  background: url("../../media/hero.png") no-repeat;
+  background: url("../../media/hero-1850x780.webp") no-repeat;
   background-attachment: fixed;
   background-size: contain;
   background-position: bottom;
@@ -120,7 +118,7 @@ Divide # of pixes by 16px:
   }
 
   .hero-section {
-    background: url("../../media/hero-small.png") no-repeat;
+    background: url("../../media/hero-small-843x1040.webp") no-repeat;
     background-size: var(--400px) calc(var(--300px) + var(--48px));
     background-position: bottom;
     height: var(--700px);
@@ -131,12 +129,16 @@ Divide # of pixes by 16px:
       align-items: center;
       /* margin-top: var(--35px); */
       width: 100%;
+
+
     }
   }
 
-  .button {
+  .button-block-query {
     display: block;
   }
+
+
 
   /* Cards to stack */
   .util-columns-2,

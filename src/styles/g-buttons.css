@@ -6,15 +6,16 @@
   border-radius: var(--8px);
   background: var(--button-bg);
   cursor: pointer;
-  display: inline-block;
+  
   font-size: large;
 
   font-weight: 600;
   height: calc(var(--60px) + var(--10px));
-  margin-bottom: var(--16px);
+  margin-bottom: var(--10px);
   padding: var(--16px);
+  text-align: center;
   transition: var(--main-transition);
-  width: auto;
+  /* width: auto; */
   
   &:hover {
     background-color: var(--swatch4-color);
@@ -35,8 +36,7 @@
 
 /* Large Button */
 .button-belt {
-  text-align: center;
-  /* margin: 0 auto; */
+  display: inline-block;
   width: 100%;
 }
 

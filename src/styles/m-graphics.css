@@ -30,6 +30,6 @@
   padding: var(--6px);
   position: fixed;
   right: var(--16px);
-  top: calc(var(--35px) - var(--4px));
+  top: var(--10px);
   z-index: 20;
 }
