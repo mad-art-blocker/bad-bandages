@@ -67,7 +67,7 @@
 .navbar-section {
   grid-area: navbarArea;
   align-items: center;
-  /* background-color: var(--containers-color); */
+  background-color: var(--containers-color);
   display: flex;
   flex-direction: row-reverse;
   height: auto;
@@ -75,7 +75,7 @@
 .search-box {
   position: relative;
   margin-right: calc(var(--100px) + var(--35px));
-  /* margin: var(--16px); */
+
 
   input {
     background-color: var(--white-color);
@@ -253,6 +253,13 @@ Divide # of pixes by 16px:
     flex-direction: column;
     margin-right: 0;
   }
+
+  .search-box {
+    position: relative;
+    margin: var(--16px);
+  }
+
+
 
   .footer-section {
     grid-template-columns: 1fr;
