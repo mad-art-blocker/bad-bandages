@@ -245,17 +245,15 @@ Divide # of pixes by 16px:
       "logoArea"
       "headerSpacerArea"
       "userArea";
-    grid-area: headerArea;
   }
 
   .navbar-section {
-    grid-area: navbarArea;
     flex-direction: column;
     margin-right: 0;
+  }
 
-    .search-box {
-      right: 0;
-    }
+  .search-box {
+    right: 0;
   }
 
   .footer-section {
@@ -269,7 +267,6 @@ Divide # of pixes by 16px:
       "footSpaceArea2"
       "footSpaceArea3"
       "footSpaceArea4";
-    grid-area: footerArea;
   }
 
   .util-text-huge {
