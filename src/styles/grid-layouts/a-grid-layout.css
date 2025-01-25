@@ -74,8 +74,8 @@
 }
 .search-box {
   position: relative;
-  margin-right: calc(var(--100px) + var(--35px));
-
+  right: calc(var(--100px) + var(--35px));
+  margin: var(--8px);
 
   input {
     background-color: var(--white-color);
@@ -252,14 +252,11 @@ Divide # of pixes by 16px:
     grid-area: navbarArea;
     flex-direction: column;
     margin-right: 0;
+
+    .search-box {
+      right: 0;
+    }
   }
-
-  .search-box {
-    position: relative;
-    margin: var(--16px);
-  }
-
-
 
   .footer-section {
     grid-template-columns: 1fr;
@@ -324,7 +321,6 @@ Divide # of pixes by 16px:
 
   .button-block-query {
     display: block;
-
   }
 
   /* Cards to stack */
