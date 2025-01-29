@@ -1,6 +1,4 @@
-/* PAGE 2 MAIN LAYOUT */
-
-/* SECTION CONTAINERS */
+/* PAGE 2 MAIN LAYOUT | GRID LAYOUT */
 
 /* Some section containers have a background image or a -
  different background color. If they are commented out or MISSING,
@@ -256,6 +254,10 @@ Divide # of pixes by 16px:
     right: 0;
   }
 
+  .button {
+    display: block;
+  }
+
   .footer-section {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
@@ -314,10 +316,6 @@ Divide # of pixes by 16px:
       align-items: center;
       width: 100%;
     }
-  }
-
-  .button-block-query {
-    display: block;
   }
 
   /* Cards to stack */

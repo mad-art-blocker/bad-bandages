@@ -1,6 +1,4 @@
-/* PAGE 1 MAIN LAYOUT */
-
-/* SECTION CONTAINERS */
+/* PAGE 1 MAIN LAYOUT | NO GRID */
 
 /* Some section containers have a background image or a -
  different background color. If they are commented out,
@@ -85,6 +83,10 @@ Divide # of pixes by 16px:
   .util-text-huge {
     font-size: var(--48px);
   }
+
+  .button {
+    display: block;
+  }
 }
 
 /* 670px MEDIA QUERIES */
@@ -129,16 +131,8 @@ Divide # of pixes by 16px:
       align-items: center;
       /* margin-top: var(--35px); */
       width: 100%;
-
-
     }
   }
-
-  .button-block-query {
-    display: block;
-  }
-
-
 
   /* Cards to stack */
   .util-columns-2,
