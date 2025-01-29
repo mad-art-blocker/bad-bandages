@@ -94,12 +94,403 @@ https://fontsource.org/
                           ===== HTML EMPTY HOME PAGE  =====
 ===================================            =================================
 
+<!DOCTYPE html>
 
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Bad Bandages</title>
+  <meta name="description" content="A bad website" />
+  <meta name="author" content="Bert G." />
+
+  <meta property="og:title" content="bad bandages" />
+  <meta property="og:type" content="website bad bandages" />
+  <meta property="og:url" content="Page URL goes here" />
+  <meta property="og:description" content="A really bad website bro" />
+  <meta property="og:image" content="image.png" />
+
+  <!-- <link rel="icon" href="/favicon.ico"> -->
+  <!-- <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" /> -->
+  <link rel="shortcut icon" href="/favicon.webp" type="image/webp" />
+  <!-- <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
+  <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+  <!-- CSS is imported inside pages/index.css  -->
+  <!-- <link rel="stylesheet" href="/pages/index.css" /> -->
+</head>
+
+<!-- Using the "a-no-grid-layout" layout in the styles>grid-layouts -->
+
+<body class="root-section">
+  <!-- HEADER SECTION - START -->
+  <header class="header-section">
+    <div class="util-container-medium util-margin-inline">
+      <!-- <h1 class="siteTitleJS util-text-font">-</h1> -->
+      <a href="/">
+        <img src="/bb-logo-156x65.webp" class="main-logo inflate-anim" width="156" height="65"
+          alt="Logo decoration of a bandage" loading="eager" />
+      </a>
+    </div>
+  </header>
+
+  <!-- NAVBAR SECTION - START -->
+  <div class="navbar-section">
+    <!-- If you going to change the container to another size, you need to change the navbar
+        section's CSS container class the same size (small, medium, large). -->
+    <div class="util-container-large util-margin-inline">
+      <!-- Menu List -->
+
+      <div class="main-menu">
+        <nav>
+          <a class="util-active" href="/">Home</a>
+
+          <a href="/page2">Page 2</a>
+
+          <a href="">Page 3</a>
+
+          <a href="">
+            <img src="/avatar.svg" class="mini-icons" width="22" height="22" alt="avatar icon" />
+            <!-- Log In -->
+          </a>
+        </nav>
+      </div>
+
+      <!-- Hamburger Button -->
+      <img src="/hamburger_menu60x60.webp" class="hamburger-iconJS" width="60" height="60" alt="Menu Decoration"
+        loading="eager" />
+
+      <!-- Mobile Menu -->
+      <nav class="mobile-menuJS util-text-bold">
+        <a href="/" class="util-active">Home</a>
+
+        <a href="/page2">Page 2</a>
+
+        <a href="">Page 3</a>
+
+        <a href="">Page 4</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- HERO SECTION - START -->
+  <!-- Check the Media Queries if you going to make changes to containers -->
+  <section class="hero-section" loading="eager">
+    <div class="util-container-medium util-margin-inline">
+      <div class="hero-content">
+        <h1 class="siteTitleJS util-text-font util-text-huge">-</h1>
+        <p class="util-text-medium util-margin-bottom">
+          Home page, using the "a-no-grid-layout"
+        </p>
+        <div>
+          <a class="button button-block-query" role="button" href="#">Get Started Now</a>
+
+          <a class="button button--dark" role="button" href="#">Don't Get Started</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN SECTION - START -->
+  <main class="main-section">
+    <h2 class="util-text-center">MAIN SECTION</h2>
+
+  </main>
+
+  <!-- VILLAIN SECTION - STARTS -->
+  <section class="villain-section util-margin-topbottom">
+    <h2 class="util-text-center">VILLAIN SECTION</h2>
+
+  </section>
+
+  <!-- FOOTER - START -->
+  <footer class="footer-section">
+    <h2 class="util-text-center">FOOTER SECTION</h2>
+
+    <div class="util-display-grid util-columns-bandage">
+      <div>
+        <h4 class="util-text-bold">Social Icon Logos</h4>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <img src="/fa-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+            loading="lazy" />
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <img src="/in-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+            loading="lazy" />
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <img src="/tw-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+            loading="lazy" />
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <img src="/yt-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+            loading="lazy" />
+        </a>
+        <a href="" target="_blank" rel="noopener noreferrer">
+          <img src="/ma-icon-75x68.webp" alt="Email icon" class="inflate-anim" width="65" height="58" loading="lazy" />
+        </a>
+      </div>
+      <div class="footer-card">
+        Emptyness is Bliss
+      </div>
+      <div>
+        <ul>
+          <li><a class="util-active" href="/">Home</a></li>
+          <li><a href="/page2">Page 2</a></li>
+          <li><a href="">page 3</a></li>
+          <li><a href="">page 4</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Anything ending in "JS" are attached to JavaScript -->
+    <p class="util-margin-topbottom">
+      <span class="siteTitleJS"></span> &#169; <span class="thisYearJS"></span> | By <span class="authorTokenJS"></span>
+      | Powered by
+      <span class="subTitlesJS"></span> - All Rights Reserved
+    </p>
+  </footer>
+
+  <!-- The defer keyword is not set because it's a module? Module sets it automatically? -->
+  <script src="/pages/home-index.js" type="module"></script>
+</body>
+
+</html>
 
 ==================================             =================================
                           ===== HTML EMPTY PAGE 2 GRID =====
 ===================================            =================================
 
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bad Bandages - PAGE 2</title>
+
+  <link rel="shortcut icon" href="/favicon.webp" type="image/webp" />
+  <!-- <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" /> -->
+  <!-- <link rel="icon" type="image/svg+xml" href="/favicon.svg" /> -->
+
+  <!-- CSS is imported inside pages/page2.js  -->
+  <!-- <link rel="stylesheet" href="/pages/page2.css" /> -->
+</head>
+
+
+<!-- Using the "a-grid-layout" layout in the styles>grid-layouts -->
+
+<body class="root-section grid-all">
+
+
+
+  <!-- HEADER SECTION -->
+  <header class="header-section">
+    <!-- Logo Section Space -->
+    <div class="logo-section">
+      <a href="/">
+        <img src="/bb-logo-156x65.webp" class="main-logo inflate-anim" width="156" height="65"
+          alt="Logo decoration of a bandage" loading="eager" />
+      </a>
+    </div>
+
+    <!-- Middle Header Space -->
+    <div class="header-spacer">
+      <!-- Hamburger Button -->
+      <img src="/hamburger_menu60x60.webp" class="hamburger-iconJS" width="60" height="60" alt="Menu Decoration"
+        loading="eager" />
+      <!-- Mobile Menu -->
+      <nav class="mobile-menuJS util-text-bold">
+        <a href="/">Home</a>
+
+        <a href="/page2" class="util-active">Page 2</a>
+
+        <a href="">Page 3</a>
+
+        <a href="">Page 4</a>
+      </nav>
+    </div>
+
+    <!-- Login Cart, Nav User Space -->
+    <div class="user-section main-menu">
+      <nav>
+        <a href="/">Home</a>
+
+        <a class="util-active" href="/page2">Page 2</a>
+
+        <a href="">Page 3</a>
+
+        <a href="">
+          <img src="/avatar.svg" class="mini-icons" width="22" height="22" alt="avatar icon" />
+          <!-- Log In -->
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- NAVBAR SECTION -->
+  <nav class="navbar-section">
+
+    <div class="search-box">
+      <input type="text" placeholder="Search Shit" />
+      <img src="/maginify-glass80x80.svg" class="search-img" width="40" height="40"
+        alt="Magnifying glass design icon" />
+    </div>
+    </div>
+
+  </nav>
+  <!-- HERO SECTION -->
+  <div class="hero-section" loading="eager">
+    <div class="util-container-medium util-margin-inline">
+      <div class="hero-content">
+        <h1 class="siteTitleJS util-text-font util-text-huge">-</h1>
+        <p class="util-text-medium util-margin-bottom">
+          Page 2, using the "a-grid-layout"
+        </p>
+        <div>
+
+          <a class="button button-block-query" role="button" href="#">Get Started Now</a>
+
+          <a class="button button--dark" role="button" href="#">Don't Get Started</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- MAIN SECTION -->
+  <main class="main-section">
+
+    <h2 class="util-text-center">MAIN SECTION</h2>
+
+
+  </main>
+
+  <!-- SIDEBAR-1 SECTION -->
+  <aside class="sidebar1-section">
+    <details open>
+      <summary><strong>Link Section 1</strong></summary>
+      <ul>
+        <li>
+          <a href="" target="_blank" rel="noopener noreferrer">Link-1</a>
+        </li>
+        <li>
+          <a href="" target="_blank" rel="noopener noreferrer">Link-2</a>
+        </li>
+      </ul>
+    </details>
+
+    <details open>
+      <summary><strong>Link Section 2</strong></summary>
+      <ul>
+        <li>
+          <a href="" target="_blank" rel="noopener noreferrer">Link-1</a>
+        </li>
+        <li>
+          <a href="" target="_blank" rel="noopener noreferrer">Link-2</a>
+        </li>
+      </ul>
+    </details>
+  </aside>
+
+  <!-- SIDEBAR-2 SECTION -->
+  <aside class="sidebar2-section">
+    <details>
+      <summary><strong>Link Section 1</strong></summary>
+      <ul>
+        <li>
+          <a href="" target="_blank" rel="noopener noreferrer">Link-1</a>
+        </li>
+        <li>
+          <a href="" target="_blank" rel="noopener noreferrer">Link-2</a>
+        </li>
+      </ul>
+    </details>
+
+    <details>
+      <summary><strong>Link Section 2</strong></summary>
+      <ul>
+        <li>
+          <a href="" target="_blank" rel="noopener noreferrer">Link-1</a>
+        </li>
+        <li>
+          <a href="" target="_blank" rel="noopener noreferrer">Link-2</a>
+        </li>
+      </ul>
+    </details>
+  </aside>
+
+  <!-- VILLAIN SECTION -->
+  <div class="villain-section">
+    <h2 class="util-text-center">VILLAIN SECTION</h2>
+  </div>
+
+  <!-- FOOTER SECTION -->
+  <footer class="footer-section util-text-center util-margin-top">
+
+    <div class="foot-space1">
+      <h2 class="util-text-center">FOOTER SECTION</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a class="util-active" href="/page2">page 2</a></li>
+        <li><a href="">page 3</a></li>
+        <li><a href="">page 4</a></li>
+      </ul>
+    </div>
+    <div class="foot-space2">
+      <h4 class="util-text-bold">Social Icon Logos</h4>
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <img src="/fa-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+          loading="lazy" />
+      </a>
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <img src="/in-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+          loading="lazy" />
+      </a>
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <img src="/tw-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+          loading="lazy" />
+      </a>
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <img src="/yt-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+          loading="lazy" />
+      </a>
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <img src="/ma-icon-75x68.webp" alt="Email icon" class="inflate-anim" width="65" height="58" loading="lazy" />
+      </a>
+    </div>
+    <div class="foot-space3 footer-card">
+
+      Emptyness is bliss
+    </div>
+
+    <div class="foot-space4">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a class="util-active" href="/page2">page 2</a></li>
+        <li><a href="">page 3</a></li>
+        <li><a href="">page 4</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- FOOTER SECTION 2 -->
+
+  <footer class="footer-section2">
+    <p class="util-margin-topbottom">
+      <span class="siteTitleJS"></span> &#169;
+      <span class="thisYearJS"></span> | By
+      <span class="authorTokenJS"></span> | Powered by
+      <span class="subTitlesJS"></span> - All Rights Reserved
+    </p>
+  </footer>
+
+  <!-- The defer keyword is not set because it's a module? Module sets it automatically? -->
+  <script src="/pages/index-grid.js" type="module"></script>
+</body>
+
+</html>
 
 
 
