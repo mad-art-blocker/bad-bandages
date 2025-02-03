@@ -1,13 +1,13 @@
 /* ANIMATIONS */
 
-/* This 2 inflate animation classes are for the social media icons inflating them: */
-.inflate-anim {
+/* This 2 roll-over animation classes are for the social media icons inflating them: */
+.rollover-anim {
   transition: var(--main-transition);
 }
 
-.inflate-anim:hover {
-  transform: scale(1.4);
-  /* transform: rotate(0.5turn); */
+.rollover-anim:hover {
+  /* transform: scale(1.2); */
+  transform: rotate(1.0turn);
   /* transform: scale(0.5) translate(-100%, -100%); */
 }
 

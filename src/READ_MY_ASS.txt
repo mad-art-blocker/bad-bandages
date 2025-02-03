@@ -130,7 +130,7 @@ https://fontsource.org/
     <div class="util-container-medium util-margin-inline">
       <!-- <h1 class="siteTitleJS util-text-font">-</h1> -->
       <a href="/">
-        <img src="/bb-logo-156x65.webp" class="main-logo inflate-anim" width="156" height="65"
+        <img src="/bb-logo-156x65.webp" class="main-logo rollover-anim" width="156" height="65"
           alt="Logo decoration of a bandage" loading="eager" />
       </a>
     </div>
@@ -213,23 +213,23 @@ https://fontsource.org/
       <div>
         <h4 class="util-text-bold">Social Icon Logos</h4>
         <a href="" target="_blank" rel="noopener noreferrer">
-          <img src="/fa-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+          <img src="/fa-icon-75x68.webp" alt="Social logo icon" class="rollover-anim" width="65" height="58"
             loading="lazy" />
         </a>
         <a href="" target="_blank" rel="noopener noreferrer">
-          <img src="/in-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+          <img src="/in-icon-75x68.webp" alt="Social logo icon" class="rollover-anim" width="65" height="58"
             loading="lazy" />
         </a>
         <a href="" target="_blank" rel="noopener noreferrer">
-          <img src="/tw-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+          <img src="/tw-icon-75x68.webp" alt="Social logo icon" class="rollover-anim" width="65" height="58"
             loading="lazy" />
         </a>
         <a href="" target="_blank" rel="noopener noreferrer">
-          <img src="/yt-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+          <img src="/yt-icon-75x68.webp" alt="Social logo icon" class="rollover-anim" width="65" height="58"
             loading="lazy" />
         </a>
         <a href="" target="_blank" rel="noopener noreferrer">
-          <img src="/ma-icon-75x68.webp" alt="Email icon" class="inflate-anim" width="65" height="58" loading="lazy" />
+          <img src="/ma-icon-75x68.webp" alt="Email icon" class="rollover-anim" width="65" height="58" loading="lazy" />
         </a>
       </div>
       <div class="footer-card">
@@ -291,7 +291,7 @@ https://fontsource.org/
     <!-- Logo Section Space -->
     <div class="logo-section">
       <a href="/">
-        <img src="/bb-logo-156x65.webp" class="main-logo inflate-anim" width="156" height="65"
+        <img src="/bb-logo-156x65.webp" class="main-logo rollover-anim" width="156" height="65"
           alt="Logo decoration of a bandage" loading="eager" />
       </a>
     </div>
@@ -441,23 +441,23 @@ https://fontsource.org/
     <div class="foot-space2">
       <h4 class="util-text-bold">Social Icon Logos</h4>
       <a href="" target="_blank" rel="noopener noreferrer">
-        <img src="/fa-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+        <img src="/fa-icon-75x68.webp" alt="Social logo icon" class="rollover-anim" width="65" height="58"
           loading="lazy" />
       </a>
       <a href="" target="_blank" rel="noopener noreferrer">
-        <img src="/in-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+        <img src="/in-icon-75x68.webp" alt="Social logo icon" class="rollover-anim" width="65" height="58"
           loading="lazy" />
       </a>
       <a href="" target="_blank" rel="noopener noreferrer">
-        <img src="/tw-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+        <img src="/tw-icon-75x68.webp" alt="Social logo icon" class="rollover-anim" width="65" height="58"
           loading="lazy" />
       </a>
       <a href="" target="_blank" rel="noopener noreferrer">
-        <img src="/yt-icon-75x68.webp" alt="Social logo icon" class="inflate-anim" width="65" height="58"
+        <img src="/yt-icon-75x68.webp" alt="Social logo icon" class="rollover-anim" width="65" height="58"
           loading="lazy" />
       </a>
       <a href="" target="_blank" rel="noopener noreferrer">
-        <img src="/ma-icon-75x68.webp" alt="Email icon" class="inflate-anim" width="65" height="58" loading="lazy" />
+        <img src="/ma-icon-75x68.webp" alt="Email icon" class="rollover-anim" width="65" height="58" loading="lazy" />
       </a>
     </div>
     <div class="foot-space3 footer-card">
