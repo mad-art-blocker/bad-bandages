@@ -32,7 +32,7 @@
   animation-timeline: view();
   animation-range-start: 150vh;
   animation-range-end: 180vh;
-  background-color: var(--swatch3-color);
+  background-color: var(--containers-color);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
@@ -65,7 +65,7 @@
 .navbar-section {
   grid-area: navbarArea;
   align-items: center;
-  background-color: var(--containers-color);
+  /* background-color: var(--containers-color); */
   display: flex;
   flex-direction: row-reverse;
   height: auto;
@@ -218,6 +218,7 @@ Divide # of pixes by 16px:
   .grid-all {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
+    margin: var(--8px);
 
     /* gap: 0px 0px; */
     grid-auto-flow: column;
@@ -292,7 +293,6 @@ Divide # of pixes by 16px:
 
   p {
     font-size: 100%;
-    padding: var(--10px);
   }
 
   .main-menu {
@@ -308,7 +308,7 @@ Divide # of pixes by 16px:
     background: url("../../media/hero-small-843x1040.webp") no-repeat;
     background-size: var(--400px) calc(var(--300px) + var(--48px));
     background-position: bottom;
-    height: var(--700px);
+    min-height: calc(var(--400px) + var(--200px) + var(--25px));
 
     .hero-content {
       display: flex;
