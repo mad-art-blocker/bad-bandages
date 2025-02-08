@@ -18,11 +18,11 @@
   --body-color: var(--black-color);
   --containers-color: var(--swatch4-color);
   --headings-light-color: var(--white-color);
-  --headings-dark-color: var(--swatch3-color);
-  --light-text-color: var(--white-color);
-  --dark-text-color: var(--black-color);
-  --links-light-color: var(--white-color);
-  --links-dark-color: var(--black-color);
+  /* --headings-dark-color: var(--swatch3-color); */
+  --text-light-color: var(--white-color);
+  --text-dark-color: var(--black-color);
+  /* --links-light-color: var(--white-color); */
+  /* --links-dark-color: var(--black-color); */
 
   /* REM SIZES */
 
@@ -83,13 +83,13 @@
 
 html {
   font-size: 100%;
-  /* -webkit-text-size-adjust: 100%; */
 }
 
 body {
   background-color: var(--body-color);
-  /* font-weight: 500; */
-  font-style: normal;
+  color: var(--text-light-color);
+  font-weight: 400;
+  /* font-style: normal; */
   font-family:
     "Ubuntu",
     "Lucida Sans Unicode",
@@ -98,7 +98,6 @@ body {
     Arial,
     sans-serif;
   line-height: 1.7;
-
   /* Get rid of the horizontal scroll-bar: */
   overflow-x: hidden;
 }

@@ -4,9 +4,9 @@
  different background color. If they are commented out,
  they are colored by the body background color or other color. */
 
-.root-section {
+/* .root-section {
   color: var(--light-text-color);
-}
+} */
 
 .header-section {
   background-color: var(--containers-color);

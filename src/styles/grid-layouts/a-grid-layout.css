@@ -1,13 +1,8 @@
 /* PAGE 2 MAIN LAYOUT | GRID LAYOUT */
 
-/* Some section containers have a background image or a -
- different background color. If they are commented out or MISSING,
- they are colored by the body background color or other section down below with
- its own color. */
-
-.root-section {
+/* .root-section {
   color: var(--light-text-color);
-}
+} */
 
 .grid-all {
   display: grid;

@@ -3,12 +3,12 @@
 /* This 2 roll-over animation classes are for the social media icons inflating them: */
 .rollover-anim {
   transition: var(--main-transition);
-}
 
-.rollover-anim:hover {
-  /* transform: scale(1.2); */
-  transform: rotate(1.0turn);
-  /* transform: scale(0.5) translate(-100%, -100%); */
+  &:hover {
+    transform: scale(1.2);
+    /* transform: rotate(1.0turn); */
+    /* transform: scale(0.5) translate(-20%); */
+  }
 }
 
 /* Sticky Nav Keyframes Animation on Scroll with opacity */
