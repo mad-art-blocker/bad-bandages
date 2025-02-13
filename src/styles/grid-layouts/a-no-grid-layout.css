@@ -4,10 +4,6 @@
  different background color. If they are commented out,
  they are colored by the body background color or other color. */
 
-/* .root-section {
-  color: var(--light-text-color);
-} */
-
 .header-section {
   background-color: var(--containers-color);
   height: auto;
@@ -26,7 +22,7 @@
 }
 
 /* Change the HTML .util-container-(size) class if changing this size. */
-.navbar-section .util-container-large {
+.navbar-section .util-lg-container {
   display: flex;
 
   /* justify-content: space-evenly, center, space-around, space-evenly, right; */

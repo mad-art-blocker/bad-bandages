@@ -1,9 +1,5 @@
 /* PAGE 2 MAIN LAYOUT | GRID LAYOUT */
 
-/* .root-section {
-  color: var(--light-text-color);
-} */
-
 .grid-all {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -27,7 +23,7 @@
   animation-timeline: view();
   animation-range-start: 150vh;
   animation-range-end: 180vh;
-  background-color: var(--containers-color);
+  /* background-color: var(--containers-color); */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 
@@ -67,7 +63,7 @@
 }
 .search-box {
   position: relative;
-  right: calc(var(--100px) + var(--35px));
+  right: var(--100px);
   margin: var(--8px);
 
   input {
@@ -75,14 +71,14 @@
     border-radius: var(--8px);
     font-size: var(--25px);
     padding: var(--10px);
-    width: calc(var(--300px) + var(--48px));
+    width: calc(var(--300px) + var(--16px));
   }
   .search-img {
     cursor: pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    right: 2rem;
+    right: var(--16px);
   }
 }
 .search-box input::placeholder {
@@ -95,6 +91,7 @@
 .hero-section {
   grid-area: heroArea;
   background: url("../../media/hero-1280x616.webp") no-repeat;
+  background-color: var(--containers-color);
   background-attachment: fixed;
   background-size: contain;
   background-position: bottom;
@@ -107,11 +104,12 @@
 
 .main-section {
   grid-area: mainArea;
+  background-color: var(--containers-color);
 }
 
 .sidebar1-section {
   grid-area: sidebar1Area;
-  /* background-color: var(--swatch4-color); */
+  background-color: var(--containers-color);
   display: flex;
   flex-direction: column;
   gap: var(--16px);
@@ -131,7 +129,7 @@
 
 .sidebar2-section {
   grid-area: sidebar2Area;
-  /* background-color: var(--swatch4-color); */
+  background-color: var(--containers-color);
   display: flex;
   flex-direction: column;
   gap: var(--16px);

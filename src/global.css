@@ -51,7 +51,10 @@
   --300px: 18.75rem;
   --400px: 25rem;
   --700px: 43.75rem;
+  --800px: 50rem;
   --1000px: 62.5rem;
+  --1280px: 80rem;
+  --1500px: 93.75rem;
 
   /* Calc Usage: */
 
@@ -61,11 +64,16 @@
   /* Negative numbers work-around?: */
   /* calc(var(--300px) * -1); */
 
-  /* Animation Transitions 
-  Usage: transition: var(--main-transition);
-  */
+  /** Animation Transitions:
+   Usage: transition: var(--main-transition); **/
+
   --main-transition: all 0.3s linear;
-  --right-transition: right 0.3s ease-in-out;
+  /* --right-transition: right 0.3s ease-in-out; */
+
+  /** ==== MAIN WIDTH AND BACKGROUND COLOR GLOBALLY ==== **/
+  background-color: var(--body-color);
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 /* GLOBALS */
@@ -86,10 +94,8 @@ html {
 }
 
 body {
-  background-color: var(--body-color);
   color: var(--text-light-color);
   font-weight: 400;
-  /* font-style: normal; */
   font-family:
     "Ubuntu",
     "Lucida Sans Unicode",
@@ -99,7 +105,7 @@ body {
     sans-serif;
   line-height: 1.7;
   /* Get rid of the horizontal scroll-bar: */
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 /* other links color and hover are in the utilities folder, helpers css file. */
@@ -135,7 +141,8 @@ img {
   height: auto;
   /* shape-margin: calc(var(--10px) + var(--2px)); */
   max-width: 100%;
-  vertical-align: middle;
+  /* Use this for icons: */
+  /* vertical-align: middle; */
 }
 
 /* .img-fit {

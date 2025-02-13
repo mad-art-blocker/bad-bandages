@@ -1,16 +1,21 @@
 /* CONTAINERS UTILITIES */
 
 /* 800px */
-.util-container-small {
-  max-width: calc(var(--400px) + var(--400px));
+.util-sm-container {
+  max-width: var(--800px);
 }
 
-/* 1100px */
-.util-container-medium {
-  max-width: calc(var(--1000px) + var(--60px));
+/* 1048px */
+.util-md-container {
+  max-width: calc(var(--1000px) + var(--48px));
 }
 
-/* 100% */
-.util-container-large {
-  width: 100%;
+/* 1280px */
+.util-lg-container {
+  max-width: var(--1280px);
+}
+
+/* 1500px */
+.util-xl-container {
+  max-width: var(--1500px);
 }
