@@ -1,7 +1,18 @@
 /* ANIMATIONS */
 
-/* This 2 roll-over animation classes are for the social media icons inflating them: */
-.rollover-anim {
+/* Link icon animation: */
+.hover-effect {
+  background-color: var(--bandage-color);
+  border-radius: var(--4px);
+
+  &:hover {
+    border-radius: 50%;
+    transition: var(--main-transition);
+  }
+}
+
+/* This 2 hover animation classes are for the social media icons: */
+.hover-anim {
   transition: var(--main-transition);
 
   &:hover {

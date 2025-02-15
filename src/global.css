@@ -72,8 +72,8 @@
 
   /** ==== MAIN WIDTH AND BACKGROUND COLOR GLOBALLY ==== **/
   background-color: var(--body-color);
-  max-width: 85%;
-  margin: 0 auto;
+  max-width: 90%;
+  margin: auto;
 }
 
 /* GLOBALS */
