@@ -56,7 +56,7 @@
 .navbar-section {
   grid-area: navbarArea;
   align-items: center;
-  /* background-color: var(--containers-color); */
+  background-color: var(--containers-color);
   display: flex;
   flex-direction: row-reverse;
   height: auto;
@@ -67,7 +67,7 @@
   margin: var(--8px);
 
   input {
-    background-color: var(--white-color);
+    background-color: var(--color-whites);
     border-radius: var(--8px);
     font-size: var(--25px);
     padding: var(--10px);
@@ -104,12 +104,12 @@
 
 .main-section {
   grid-area: mainArea;
-  background-color: var(--containers-color);
+  /* background-color: var(--containers-color); */
 }
 
 .sidebar1-section {
   grid-area: sidebar1Area;
-  background-color: var(--containers-color);
+  /* background-color: var(--containers-color); */
   display: flex;
   flex-direction: column;
   gap: var(--16px);
@@ -122,33 +122,34 @@
   /* top: var(--100px); */
 
   ul {
-    background-color: var(--swatch3-color);
+    background-color: var(--color-swatch3);
     /* border-radius: var(--8px); */
   }
 }
 
 .sidebar2-section {
   grid-area: sidebar2Area;
-  background-color: var(--containers-color);
+  /* background-color: var(--containers-color); */
   display: flex;
   flex-direction: column;
   gap: var(--16px);
   text-align: center;
 
   ul {
-    background-color: var(--swatch3-color);
+    background-color: var(--color-swatch3);
     /* border-radius: var(--8px); */
   }
 }
 
 .villain-section {
   grid-area: villainArea;
-  background-color: var(--containers-color);
+  /* background-color: var(--containers-color); */
 }
 
 .footer-section {
   grid-area: footerArea;
-  /* background-color: var(--containers-color); */
+  background-color: var(--containers-color);
+  height: 30vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
@@ -171,7 +172,7 @@
 .foot-space3 {
   grid-area: footSpaceArea3;
 
-  /* background-color: var(--bandage-color); */
+  /* background-color: var(--color-bandages); */
 }
 
 .foot-space4 {
@@ -180,7 +181,7 @@
 
 .footer-section2 {
   grid-area: footerArea2;
-  /* background-color: var(--containers-color); */
+  background-color: var(--containers-color);
   text-align: center;
 }
 

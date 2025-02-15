@@ -1,12 +1,12 @@
 /* HELPING UTILITIES */
 
 .util-active {
-  color: var(--accent-color);
+  color: var(--color-accents);
 }
 
 .util-highlight,
 mark {
-  background-color: var(--highlight-color);
+  background-color: var(--color-highlights);
   padding: var(--4px);
 }
 
@@ -21,7 +21,7 @@ mark {
 }
 
 hr {
-  border: var(--1px) dashed var(--swatch1-color);
+  border: var(--1px) dashed var(--color-swatch1);
   margin: var(--35px) auto;
   width: 50%;
 }

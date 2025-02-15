@@ -3,9 +3,9 @@
 /* Cards are controlled by the util-grids UTILITIES */
 .main-card,
 .large-card {
-  background-color: var(--swatch3-color);
+  background-color: var(--color-swatch4);
 
-  /* border-bottom: var(--2px) solid var(--swatch2-color); */
+  /* border-bottom: var(--2px) solid var(--color-swatch2); */
   border-radius: var(--10px);
   /* margin: var(--16px) auto; */
   padding: var(--16px);
@@ -19,30 +19,30 @@
 /* LARGE CARDS ^top large-card is stacked to the main-card */
 
 /* .large-card {
-  background-color: var(--white-color);
+  background-color: var(--color-whites);
   border-radius: var(--8px);
-  border-bottom: var(--8px) solid var(--swatch3-color);
+  border-bottom: var(--8px) solid var(--color-swatch3);
   padding: var(--8px);
 } */
 
 .large-card:nth-child(even) {
-  background-color: var(--swatch2-color);
+  background-color: var(--color-swatch2);
 }
 
 /* FOOTER CARDS */
 
 .footer-card {
-  background-color: var(--swatch3-color);
+  background-color: var(--color-swatch3);
   border-radius: var(--8px);
 
-  /* border-bottom: var(--10px) solid var(--bandage-color); */
+  /* border-bottom: var(--10px) solid var(--color-bandages); */
 
   /* color: var(--light-text-color); */
   padding: var(--16px);
 }
 
 /* .footer-card:nth-child(odd) {
-  background-color: var(--accent-color);
+  background-color: var(--color-accents);
 } */
 
 /* .footer-card p:nth-child(2) {

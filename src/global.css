@@ -1,27 +1,30 @@
 :root {
   /* COLOR VARIABLES */
 
-  --white-color: hsl(270, 21%, 89%);
-  --swatch1-color: hsl(281, 61%, 75%);
-  --swatch2-color: hsl(259, 45%, 62%);
-  --swatch3-color: hsl(259, 32%, 42%);
-  --swatch4-color: hsl(260, 44%, 25%);
-  --black-color: hsl(258, 64%, 12%);
+  /* Colors black and white renamed to blacks and whites
+  so if using Tailwind or other library they wont clash */
 
-  --accent-color: hsl(32deg 73% 66%);
-  --highlight-color: hsl(52, 46%, 65%);
-  --important-color: hsl(17deg 58% 56%);
-  --bandage-color: hsla(40, 73%, 63%, 0.89);
+  --color-whites: hsl(270, 21%, 89%);
+  --color-swatch1: hsl(281, 61%, 75%);
+  --color-swatch2: hsl(259, 45%, 62%);
+  --color-swatch3: hsl(259, 40%, 34%);
+  --color-swatch4: hsl(260, 44%, 25%);
+  --color-blacks: hsl(258, 55%, 12%);
+
+  --color-accents: hsl(32deg 73% 66%);
+  --color-highlights: hsl(52, 46%, 65%);
+  --color-important: hsl(17deg 58% 56%);
+  --color-bandages: hsla(40, 73%, 63%, 0.89);
 
   /* /////////////////////////////////////////////////////////// */
 
-  --body-color: var(--black-color);
-  --containers-color: var(--swatch4-color);
-  --headings-light-color: var(--white-color);
-  /* --headings-dark-color: var(--swatch3-color); */
-  --text-light-color: var(--white-color);
-  --text-dark-color: var(--black-color);
-  /* --links-light-color: var(--white-color); */
+  --body-color: var(--color-swatch3);
+  --containers-color: var(--color-swatch4);
+  --headings-light-color: var(--color-whites);
+  /* --headings-dark-color: var(--color-swatch3); */
+  --text-light-color: var(--color-whites);
+  --text-dark-color: var(--color-blacks);
+  /* --links-light-color: var(--color-whites); */
   /* --links-dark-color: var(--black-color); */
 
   /* REM SIZES */
@@ -72,7 +75,7 @@
 
   /** ==== MAIN WIDTH AND BACKGROUND COLOR GLOBALLY ==== **/
   background-color: var(--body-color);
-  max-width: 90%;
+  max-width: 85%;
   margin: auto;
 }
 
@@ -115,7 +118,7 @@ a {
 
   &:hover,
   &:focus {
-    color: var(--important-color);
+    color: var(--color-important);
   }
 }
 
@@ -128,7 +131,7 @@ a {
   transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
   &:hover {
-    box-shadow: inset 100px 0 0 0 var(--important-color);
+    box-shadow: inset 100px 0 0 0 var(--color-important);
     color: rgb(0, 0, 0);
   }
 } */

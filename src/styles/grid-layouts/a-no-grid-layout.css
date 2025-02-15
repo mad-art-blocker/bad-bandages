@@ -10,7 +10,7 @@
 }
 
 .navbar-section {
-  background-color: var(--swatch3-color);
+  background-color: var(--containers-color);
   animation: stickyNav linear forwards;
   animation-timeline: view();
   animation-range-start: 150vh;
@@ -33,6 +33,7 @@
 
 .hero-section {
   background: url("../../media/hero-1280x616.webp") no-repeat;
+  background-color: var(--containers-color);
   background-attachment: fixed;
   background-size: contain;
   /* background-position: top; */
@@ -44,18 +45,20 @@
 }
 
 .main-section {
-  background-color: var(--containers-color);
-  height: auto;
+  background-color: unset;
+  /* height: auto; */
 }
 
 .villain-section {
-  background-color: var(--containers-color);
+  background-color: unset;
   /* height: auto; */
 }
 
 .footer-section {
+  background-color: var(--containers-color);
+  height: 30vh;
   text-align: center;
-  padding-top: var(--48px);
+  padding-top: var(--60px);
 }
 
 /* ================================================================================= */

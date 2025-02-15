@@ -1,8 +1,8 @@
 /* BUTTONS */
 
 .button {
-  --button-bg: var(--bandage-color);
-  color: var(--black-color);
+  --button-bg: var(--color-bandages);
+  color: var(--text-dark-color);
   border-radius: var(--8px);
   background: var(--button-bg);
   cursor: pointer;
@@ -18,18 +18,19 @@
   /* width: auto; */
 
   &:hover {
-    background-color: var(--swatch4-color);
-    color: var(--white-color);
+    background-color: var(--color-swatch4);
+    color: var(--color-whites);
     /* border-radius: var(--16px); */
   }
 }
 
 .button--dark {
-  --button-bg: var(--swatch4-color);
+  --button-bg: var(--color-swatch4);
+  border: solid var(--color-swatch2) var(--1px);
   color: var(--light-text-color);
 
   &:hover {
-    background-color: var(--swatch3-color);
+    background-color: var(--color-swatch3);
   }
 }
 
