@@ -1,12 +1,7 @@
 /* GRAPHICS - ICONS - IMAGES */
 
-/* Main Logo 1 is centered via Media Queries
-  Uncomment display block to reverse it and 
-  take out main logo in media queries -
-*/
-
 .main-logo {
-  margin: var(--8px);
+  padding-top: var(--8px);
 }
 
 /* .social-icons {

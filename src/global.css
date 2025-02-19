@@ -7,7 +7,7 @@
   --color-whites: hsl(270, 21%, 89%);
   --color-swatch1: hsl(281, 61%, 75%);
   --color-swatch2: hsl(259, 45%, 62%);
-  --color-swatch3: hsl(259, 40%, 34%);
+  --color-swatch3: #4e3681;
   --color-swatch4: hsl(260, 44%, 25%);
   --color-blacks: hsl(258, 55%, 12%);
 
@@ -72,11 +72,6 @@
 
   --main-transition: all 0.3s linear;
   /* --right-transition: right 0.3s ease-in-out; */
-
-  /** ==== MAIN WIDTH AND BACKGROUND COLOR GLOBALLY ==== **/
-  background-color: var(--body-color);
-  max-width: 85%;
-  margin: auto;
 }
 
 /* GLOBALS */
@@ -93,12 +88,13 @@
 }
 
 html {
-  font-size: 100%;
+  background-color: var(--body-color);
 }
 
 body {
   color: var(--text-light-color);
   font-weight: 400;
+  font-size: 100%;
   font-family:
     "Ubuntu",
     "Lucida Sans Unicode",

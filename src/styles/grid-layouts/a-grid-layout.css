@@ -4,8 +4,8 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: auto;
-
-  /* gap: 0px 0px; */
+  /* margin: 0 auto; */
+  /* gap: 10px; */
   grid-auto-flow: row;
   grid-template-areas:
     "headerArea headerArea headerArea headerArea headerArea headerArea"
@@ -13,8 +13,7 @@
     " heroArea heroArea heroArea heroArea heroArea heroArea"
     " sidebar1Area mainArea mainArea mainArea mainArea sidebar2Area"
     "villainArea villainArea villainArea villainArea villainArea villainArea"
-    "footerArea footerArea footerArea footerArea footerArea footerArea"
-    "footerArea2 footerArea2 footerArea2 footerArea2 footerArea2 footerArea2";
+    "footerArea footerArea footerArea footerArea footerArea footerArea";
 }
 
 .header-section {
@@ -63,7 +62,7 @@
 }
 .search-box {
   position: relative;
-  right: var(--100px);
+  right: calc(var(--100px) + var(--48px));
   margin: var(--8px);
 
   input {
@@ -90,7 +89,7 @@
 
 .hero-section {
   grid-area: heroArea;
-  background: url("../../media/hero-1280x616.webp") no-repeat;
+  background: url("../../media/stefan-villian-hero.svg") no-repeat;
   background-color: var(--containers-color);
   background-attachment: fixed;
   background-size: contain;
@@ -149,16 +148,15 @@
 .footer-section {
   grid-area: footerArea;
   background-color: var(--containers-color);
-  height: 30vh;
+  min-height: 50vh;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
 
   /* gap: 0px var(--10px); */
   place-items: center;
   grid-auto-flow: row;
-  grid-template-areas:
-    "footSpaceArea1 footSpaceArea2 footSpaceArea3 footSpaceArea4";
+  grid-template-areas: "footSpaceArea1 footSpaceArea2 footSpaceArea3";
 }
 
 .foot-space1 {
@@ -171,18 +169,7 @@
 
 .foot-space3 {
   grid-area: footSpaceArea3;
-
-  /* background-color: var(--color-bandages); */
-}
-
-.foot-space4 {
-  grid-area: footSpaceArea4;
-}
-
-.footer-section2 {
-  grid-area: footerArea2;
-  background-color: var(--containers-color);
-  text-align: center;
+  font-size: small;
 }
 
 /* ================================================================================= */
@@ -224,8 +211,7 @@ Divide # of pixes by 16px:
       "sidebar1Area"
       "sidebar2Area"
       "villainArea"
-      "footerArea"
-      "footerArea2";
+      "footerArea";
   }
 
   .header-section {
@@ -300,15 +286,15 @@ Divide # of pixes by 16px:
 
   .hero-section {
     background: url("../../media/hero-small-843x1040.webp") no-repeat;
-    background-size: var(--400px) calc(var(--300px) + var(--48px));
+    background-size: var(--400px);
     background-position: bottom;
-    min-height: calc(var(--400px) + var(--200px) + var(--25px));
+    min-height: calc(var(--400px) + var(--400px));
 
     .hero-content {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-top: 0;
+      padding-top: 20px;
       width: 100%;
     }
   }
@@ -321,8 +307,3 @@ Divide # of pixes by 16px:
     grid-template-columns: 1fr;
   }
 }
-
-/* 500px MEDIA QUERIES */
-
-/* @media (max-width: 31.25rem) {
-} */

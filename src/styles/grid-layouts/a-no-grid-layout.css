@@ -21,8 +21,8 @@
   z-index: 10;
 }
 
-/* Change the HTML .util-container-(size) class if changing this size. */
-.navbar-section .util-lg-container {
+/*! Change the HTML util-(size)-container class if changing this size. */
+.navbar-section .util-md-container {
   display: flex;
 
   /* justify-content: space-evenly, center, space-around, space-evenly, right; */
@@ -32,18 +32,17 @@
 }
 
 .hero-section {
-  background: url("../../media/hero-1280x616.webp") no-repeat;
+  background: url("../../media/stefan-villian-hero.svg") no-repeat;
   background-color: var(--containers-color);
   background-attachment: fixed;
   background-size: contain;
-  /* background-position: top; */
+  background-position: bottom;
   height: 84vh;
 
   .hero-content {
-    padding-top: var(--48px);
+    padding-top: var(--80px);
   }
 }
-
 .main-section {
   background-color: unset;
   /* height: auto; */
@@ -56,7 +55,7 @@
 
 .footer-section {
   background-color: var(--containers-color);
-  height: 30vh;
+  min-height: 30vh;
   text-align: center;
   padding-top: var(--60px);
 }
@@ -75,7 +74,7 @@ Divide # of pixes by 16px:
 20px / 16px = 1.25rem
 */
 
-/* 960px MEDIA QUERIES */
+/* 960px MEDIA QUERIES v4 */
 
 @media (width <= 60rem) {
   .util-text-huge {
@@ -118,20 +117,20 @@ Divide # of pixes by 16px:
 
   .hero-section {
     background: url("../../media/hero-small-843x1040.webp") no-repeat;
-    background-size: var(--400px) calc(var(--300px) + var(--48px));
+    background-size: var(--400px);
     background-position: bottom;
-    min-height: calc(var(--400px) + var(--200px));
+    min-height: calc(var(--400px) + var(--400px));
 
     .hero-content {
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-top: 0;
+      padding-top: 20px;
       width: 100%;
     }
   }
 
-  /* Cards to stack */
+  /* Cards to stack from util grids css */
   .util-columns-2,
   .util-columns-3,
   /* .util-columns-4, */
@@ -139,9 +138,3 @@ Divide # of pixes by 16px:
     grid-template-columns: 1fr;
   }
 }
-
-/* 440px MEDIA QUERIES */
-
-/* @media (max-width: 440px) {
-
-} */

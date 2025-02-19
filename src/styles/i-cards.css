@@ -4,11 +4,10 @@
 .main-card,
 .large-card {
   background-color: var(--color-swatch4);
-
   /* border-bottom: var(--2px) solid var(--color-swatch2); */
   border-radius: var(--10px);
   /* margin: var(--16px) auto; */
-  padding: var(--16px);
+  padding: var(--25px);
 }
 
 .main-card p:nth-child(even) {

@@ -2,16 +2,16 @@
 
 .button {
   --button-bg: var(--color-bandages);
-  color: var(--text-dark-color);
-  border-radius: var(--8px);
   background: var(--button-bg);
+  border: solid var(--color-bandages) var(--1px);
+  border-radius: var(--10px);
+  color: var(--text-dark-color);
   cursor: pointer;
-
   font-size: large;
 
   font-weight: 600;
   margin-bottom: var(--10px);
-  padding: calc(var(--16px) + var(--2px));
+  padding: var(--25px);
   text-align: center;
   /* text-wrap: nowrap; */
   transition: var(--main-transition);
@@ -20,14 +20,14 @@
   &:hover {
     background-color: var(--color-swatch4);
     color: var(--color-whites);
-    /* border-radius: var(--16px); */
+    /* border: solid var(--color-swatch2) var(--1px); */
   }
 }
 
 .button--dark {
   --button-bg: var(--color-swatch4);
   border: solid var(--color-swatch2) var(--1px);
-  color: var(--light-text-color);
+  color: var(--text-light-color);
 
   &:hover {
     background-color: var(--color-swatch3);
