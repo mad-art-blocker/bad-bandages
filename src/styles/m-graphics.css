@@ -4,9 +4,10 @@
   padding-top: var(--8px);
 }
 
-/* .social-icons {
-  padding-top: var(--10px);
-} */
+.icons {
+  border-radius: var(--16px);
+  padding-top: var(--16px);
+}
 
 .hamburger-iconJS {
   background-color: var(--color-bandages);

@@ -77,12 +77,11 @@ Divide # of pixes by 16px:
 /* 960px MEDIA QUERIES v4 */
 
 @media (width <= 60rem) {
+  body {
+    padding: var(--4px);
+  }
   .util-text-huge {
     font-size: var(--48px);
-  }
-
-  .button {
-    display: block;
   }
 }
 
@@ -109,6 +108,7 @@ Divide # of pixes by 16px:
     display: none;
   }
 
+  .button,
   .hamburger-iconJS,
   .main-logo {
     display: block;

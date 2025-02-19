@@ -8,10 +8,9 @@
   color: var(--text-dark-color);
   cursor: pointer;
   font-size: large;
-
   font-weight: 600;
-  margin-bottom: var(--10px);
-  padding: var(--25px);
+  margin-bottom: var(--8px);
+  padding: calc(var(--10px) + var(--10px));
   text-align: center;
   /* text-wrap: nowrap; */
   transition: var(--main-transition);
