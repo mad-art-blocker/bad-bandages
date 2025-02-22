@@ -10,34 +10,34 @@
 }
 
 .navbar-section {
-  background-color: var(--containers-color);
+  /* background-color: var(--containers-color); */
   animation: stickyNav linear forwards;
   animation-timeline: view();
   animation-range-start: 150vh;
   animation-range-end: 180vh;
-
   position: sticky;
   top: 0;
   z-index: 10;
-}
 
-/*! Change the HTML util-(size)-container class if changing this size. */
-.navbar-section .util-md-container {
-  display: flex;
+  /*! Change the HTML util-(size)-container class if changing this size. */
+  .util-md-container {
+    display: flex;
+    /* background-color: var(--color-swatch3); */
 
-  /* justify-content: space-evenly, center, space-around, space-evenly, right; */
-  justify-content: right;
+    /* justify-content: space-evenly, center, space-around, space-evenly, right; */
+    justify-content: right;
 
-  /* align-items: center; */
+    /* align-items: center; */
+  }
 }
 
 .hero-section {
-  background: url("../../media/stefan-villian-hero.svg") no-repeat;
-  background-color: var(--containers-color);
+  background: url("../../media/bb-mascot160x200.svg") no-repeat;
+  background-color: var(--color-blacks);
   background-attachment: fixed;
   background-size: contain;
   background-position: bottom;
-  height: 84vh;
+  min-height: 84vh;
 
   .hero-content {
     padding-top: var(--80px);
@@ -54,7 +54,7 @@
 }
 
 .footer-section {
-  background-color: var(--containers-color);
+  background-color: var(--color-blacks);
   min-height: 30vh;
   text-align: center;
   padding-top: var(--60px);
